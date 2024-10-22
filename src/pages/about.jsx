@@ -25,28 +25,26 @@ const About = () => {
                 className="img-fluid"
               />
               <p>
-                Finnja Willner is not just a filmmaker, visual anthropologist,
-                transdisciplinary artist, and somatic movement educator. She is
-                a unique storyteller who weaves together various disciplines in
-                her projects, creating a strong, poetic, and sensitive visual
-                language in film and photography. Her aim is not just to capture
-                life realities but to illuminate them in a way that is uniquely
-                hers.
+                Finnja Willner is a filmmaker, visual anthropologist,
+                transdisciplinary artist and somatic movement educator with
+                focus on dance.
               </p>
               <p>
-                Finnja is a versatile artist. At times, she works as a one-woman
-                crew, skilled in camera work, directing, editing, and
-                production. But she also enjoys the collaborative process,
-                bringing her unique perspective to a team and contributing to
-                the collective vision.
+                In her projects she often interweaves the different disciplines
+                she is moving in. She has a strong, poetic and sensitive visual
+                language, both in film and photography, through which she aims
+                to make different realities of life tangible. Sometimes she
+                works as a one-woman-crew and is experienced in camera,
+                directing, editing and production. But mainly she very much
+                enjoys working in a team.
               </p>
               <p>
-                Aside from her artistic pursuits, Finnja creates audiovisual
-                content for websites and exhibitions for a diverse clientele.
-                She has designed and led a wide array of workshops on an
-                international scale, delivering them with passion. Her work is a
-                reflection of her values, with a strong foundation in political
-                education, and she is a certified Social Justice and Diversity
+                Next to her artistic work she produces audiovisual web and
+                exhibition content for different clients and has developed and
+                facilitated a broad variety of workshops in an international
+                context which she teaches with a lot of passion. She works
+                aligned with her values, has worked in political education for
+                many years and is a certified Social Justice and Diversity
                 trainer.
               </p>
 
