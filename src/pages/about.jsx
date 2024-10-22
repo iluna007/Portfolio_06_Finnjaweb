@@ -53,28 +53,30 @@ const About = () => {
                 className="img-fluid"
               />
               <p>
-                FILM AND SOMATICS For me, images are embodied and lived
-                experiences. Profoundly poetic images are multisensory, can
-                speak to us on both a sensory and emotional level and thus can
-                deepen our relationship with the world.
+                <strong>FILM AND SOMATICS</strong> For me, images are embodied
+                and lived experiences. Profoundly poetic images are
+                multisensory, can speak to us on both a sensory and emotional
+                level and thus can deepen our relationship with the world.
               </p>
               <p>
-                FILM AND RELATIONSHIPS Each documentary project is a unique
-                encounter with another reality, another life story, and another
-                universe. I approach each project with tenderness, and the trust
-                of my protagonists is the greatest gift I have as a filmmaker.
+                <strong>FILM AND RELATIONSHIPS</strong> Each documentary project
+                is a unique encounter with another reality, another life story,
+                and another universe. I approach each project with tenderness,
+                and the trust of my protagonists is the greatest gift I have as
+                a filmmaker.
               </p>
               <p>
-                FILM AND DANCE How can the body initiate a continuous movement
-                that resonates in the camera and leaves an imprint on the image?
-                How can the camera become an extension of the body and create
-                another dance between the filmmaker and the filmed?
+                <strong>FILM AND DANCE</strong> How can the body initiate a
+                continuous movement that resonates in the camera and leaves an
+                imprint on the image? How can the camera become an extension of
+                the body and create another dance between the filmmaker and the
+                filmed?
               </p>
               <p>
-                FILM AND EDUCATION How can we tell stories that contribute to a
-                reshaping of our world? How can we break down oppressive
-                narratives and make a diversity of perspectives visible and
-                tangible?
+                <strong>FILM AND EDUCATION</strong> How can we tell stories that
+                contribute to a reshaping of our world? How can we break down
+                oppressive narratives and make a diversity of perspectives
+                visible and tangible?
               </p>
             </div>
             <div className="col-2"></div>
@@ -87,13 +89,18 @@ const About = () => {
                 Spots create opportunities for democratic exchange with
                 workshops on film education and anti-discrimination (workshop
                 facilitator in 2023 & 2024).
-                https://spots.deutsche-filmakademie.de/externe/wl-finnja-willner/
+                <a href=" https://spots.deutsche-filmakademie.de/externe/wl-finnja-willner/">
+                  {" "}
+                  https://spots.deutsche-filmakademie.de/externe/wl-finnja-willner/
+                </a>
               </p>
               <p>
                 Deutsche Kinemathek offers a variety of film workshops
                 (facilitator for Stop Motion, Meet Berlin Filmmakers and Smart
                 Film Safari since 2017).
-                https://www.deutsche-kinemathek.de/de/besuch/bildung-vermittlung
+                <a href="https://www.deutsche-kinemathek.de/de/besuch/bildung-vermittlung">
+                  https://www.deutsche-kinemathek.de/de/besuch/bildung-vermittlung
+                </a>
               </p>
               <p>
                 Escuela Manolo Blahnik La Palma (workshop facilitator for
@@ -104,29 +111,43 @@ const About = () => {
                 filmArche Summer School brings filmmakers from all over the
                 world together to exchange and co-create at filmArche Berlin
                 (organizer & teacher in 2018 & 2019).
-                https://utopiafilmarche.wordpress.com/about-us/
+                <a href="https://utopiafilmarche.wordpress.com/about-us/">
+                  https://utopiafilmarche.wordpress.com/about-us/
+                </a>
               </p>
               <p>
                 Monnem Movies (project initiator & workshop facilitator in
                 2018).
-                https://www.mannheimer-morgen.de/orte/mannheim_artikel,-mannheim-stadtteile-aus-buergersicht-als-film-_arid,1254818.html?&npg
+                <a
+                  href="                https://www.mannheimer-morgen.de/orte/mannheim_artikel,-mannheim-stadtteile-aus-buergersicht-als-film-_arid,1254818.html?&npg
+"
+                >
+                  {" "}
+                  https://www.mannheimer-morgen.de/orte/mannheim_artikel,-mannheim-stadtteile-aus-buergersicht-als-film-_arid,1254818.html?&npg
+                </a>
               </p>
               <p>
                 EmpoderArte Peru empowers women through filmmaking in Trujillo,
                 Peru (workshop facilitator in 2018).
-                https://grenzenlos-verein.jimdofree.com/unsere-projekte/empoderarte-frauen-machen-filme/
+                <a href="https://grenzenlos-verein.jimdofree.com/unsere-projekte/empoderarte-frauen-machen-filme/">
+                  https://grenzenlos-verein.jimdofree.com/unsere-projekte/empoderarte-frauen-machen-filme/
+                </a>
               </p>
               <p>
                 Cinetaya (co-founder & workshop facilitator in 2015 & 2016) is a
                 film workshop initiative that offers documentary film workshops
                 in an intercultural context. The first workshops took place at
                 the cultural centre Casa Tres Mundos in Granada, Nicaragua.
-                https://c3mundos.org/de/cine-documental/
+                <a href="https://c3mundos.org/de/cine-documental/">
+                  https://c3mundos.org/de/cine-documental/
+                </a>
               </p>
               <p>
                 Sensory Lab is a digital experiment to connect through senses &
                 movement.
-                https://www.creative-city-berlin.de/en/events/event/reflection-of-a-dancing-body-with-finnja-willner/
+                <a href="https://www.creative-city-berlin.de/en/events/event/reflection-of-a-dancing-body-with-finnja-willner/">
+                  https://www.creative-city-berlin.de/en/events/event/reflection-of-a-dancing-body-with-finnja-willner/
+                </a>
               </p>
             </div>
             <div className="col-2"></div>

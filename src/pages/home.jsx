@@ -30,22 +30,20 @@ const Home = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        minHeight: "100vh",
+        minHeight: "80vh",
         overflow: "hidden"
       }}
     >
       <video
         ref={videoRef}
         src="/Reel_provisorio.MOV"
-        className="object-fit-none"
+        className="object-fit-none rounded"
         autoPlay
         loop
-        muted
         type="video/quicktime"
         style={{
-          maxWidth: "100%", // Ensures the video doesn't exceed the width of its container
-          height: "auto", // Maintains the video aspect ratio
-          display: "block"
+          maxWidth: "85%", // Ensures the video doesn't exceed the width of its container
+          height: "auto" // Maintains the video aspect ratio
         }}
       ></video>
     </div>
