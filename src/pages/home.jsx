@@ -32,42 +32,45 @@ const Home = () => {
         alignItems: "center",
         minHeight: "80vh",
         overflow: "hidden",
-        position: "relative"
+        position: "relative",
+        width: "100%", // Ensure it takes the whole width
+        margin: 0,
+        padding: 0
       }}
     >
       <video
         ref={videoRef}
         src="/Reel_provisorio.MOV"
-        className="object-fit-none rounded"
         autoPlay
         loop
         muted
         playsInline
         type="video/quicktime"
         style={{
-          width: "100%", // Default for all screens
-          height: "auto" // Default for all screens
+          width: "100%",
+          height: "auto",
+          borderRadius: "12px" // Reintroduce rounded corners
         }}
       ></video>
 
-      {/* Inline styles using media queries for different screen sizes */}
+      {/* Media Queries to handle different screen sizes */}
       <style>
         {`
           @media (max-width: 768px) {
             video {
-              width: 100vw;  /* Full viewport width */
-              height: 100vh; /* Full viewport height */
-              object-fit: cover; /* Cover the entire screen */
-              position: absolute; /* To cover the entire viewport */
-              top: 0;
-              left: 0;
+              width: 100vw;   /* Full width for smaller devices */
+              height: auto;    /* Keep the aspect ratio intact */
+              max-height: 80vh; /* Leave room for other elements (like navbar and footer) */
+              object-fit: contain; /* Keep the video visible without cropping */
+              border-radius: 12px; /* Keep rounded corners on mobile */
             }
           }
 
           @media (min-width: 769px) {
             video {
               max-width: 85%; /* Maintain previous proportions on larger screens */
-              height: auto; /* Keep aspect ratio */
+              height: auto;   /* Keep aspect ratio */
+              border-radius: 12px; /* Keep rounded corners on desktop */
             }
           }
         `}
