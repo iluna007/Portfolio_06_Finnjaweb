@@ -31,7 +31,8 @@ const Home = () => {
         justifyContent: "center",
         alignItems: "center",
         minHeight: "80vh",
-        overflow: "hidden"
+        overflow: "hidden",
+        position: "relative"
       }}
     >
       <video
@@ -44,10 +45,33 @@ const Home = () => {
         playsInline
         type="video/quicktime"
         style={{
-          maxWidth: "85%", // Ensures the video doesn't exceed the width of its container
-          height: "auto" // Maintains the video aspect ratio
+          width: "100%", // Default for all screens
+          height: "auto" // Default for all screens
         }}
       ></video>
+
+      {/* Inline styles using media queries for different screen sizes */}
+      <style>
+        {`
+          @media (max-width: 768px) {
+            video {
+              width: 100vw;  /* Full viewport width */
+              height: 100vh; /* Full viewport height */
+              object-fit: cover; /* Cover the entire screen */
+              position: absolute; /* To cover the entire viewport */
+              top: 0;
+              left: 0;
+            }
+          }
+
+          @media (min-width: 769px) {
+            video {
+              max-width: 85%; /* Maintain previous proportions on larger screens */
+              height: auto; /* Keep aspect ratio */
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };
