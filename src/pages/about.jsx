@@ -18,7 +18,7 @@ const About = () => {
             <div className="col-2"></div>
             <div className="col">
               <img
-                src="/About/fp1.jpeg"
+                src="/About/fw1.jpeg"
                 alt="About Finnja"
                 className="img-fluid"
               />
@@ -48,7 +48,7 @@ const About = () => {
                 trainer.
               </p>
               <img
-                src="/About/fp2.jpeg"
+                src="/About/fw2.jpeg"
                 alt="About Finnja"
                 className="img-fluid"
               />
