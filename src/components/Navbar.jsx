@@ -12,7 +12,11 @@ const CustomNavbar = ({ artist }) => {
     >
       <Container>
         <BootstrapNavbar.Brand href="/">
+<<<<<<< HEAD
           <h1 className="mb-0">Finnja Willner</h1>
+=======
+          <h1 className="mb-0">Finna Willner</h1>
+>>>>>>> 2fdad2c3cde44d71ad60ebf9bced685bc497506e
           <p className="mb-0" style={{ color: "gray" }}>
             {artist}
           </p>
