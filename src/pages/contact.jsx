@@ -33,7 +33,7 @@ const Contact = () => {
               <br />
               Email: finnja.willner@web.de
             </p>
-            <Accordion defaultActiveKey="0" flush>
+            <Accordion defaultActiveKey={null} flush>
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Privacy Policy</Accordion.Header>
                 <Accordion.Body>

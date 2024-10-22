@@ -3,9 +3,7 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <h1>Privacy Policy</h1>
-
-      <h2>1. An overview of data protection</h2>
+      <h2>An overview of data protection</h2>
       <h3>General</h3>
       <p>
         The following gives a simple overview of what happens to your personal
