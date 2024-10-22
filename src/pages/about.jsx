@@ -17,6 +17,8 @@ const About = () => {
           <div className="row border-top">
             <div className="col-2"></div>
             <div className="col">
+              <h2 className="mt-5">About Finnja</h2>
+
               <img
                 src="/About/fw1.jpeg"
                 alt="About Finnja"
@@ -47,11 +49,7 @@ const About = () => {
                 education, and she is a certified Social Justice and Diversity
                 trainer.
               </p>
-              <img
-                src="/About/fw2.jpeg"
-                alt="About Finnja"
-                className="img-fluid"
-              />
+
               <p>
                 <strong>FILM AND SOMATICS</strong> For me, images are embodied
                 and lived experiences. Profoundly poetic images are
@@ -150,6 +148,16 @@ const About = () => {
                 </a>
               </p>
             </div>
+
+            <div className="col-2"></div>
+          </div>
+          <div className="row border-top">
+            <div className="col-2"></div>
+            <div className="col">
+              <h2 className="mt-5">Clients</h2>
+              <p>xxx</p>
+            </div>
+
             <div className="col-2"></div>
           </div>
         </div>

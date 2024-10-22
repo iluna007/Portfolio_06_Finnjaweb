@@ -40,6 +40,8 @@ const Home = () => {
         className="object-fit-none rounded"
         autoPlay
         loop
+        muted
+        playsInline
         type="video/quicktime"
         style={{
           maxWidth: "85%", // Ensures the video doesn't exceed the width of its container

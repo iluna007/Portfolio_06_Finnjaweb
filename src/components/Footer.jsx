@@ -24,7 +24,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="mailto:example@example.com"
+              href="mailto:finnja.willner@web.de"
               className="me-3 text-secondary"
             >
               <i className="bi bi-envelope"></i>
