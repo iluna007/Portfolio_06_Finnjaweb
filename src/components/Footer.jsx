@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="border-top">
           <div className="social-icons">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/finnjawillner/"
               target="_blank"
               rel="noopener noreferrer"
               className="me-3 text-secondary"
@@ -15,21 +15,14 @@ const Footer = () => {
               <i className="bi bi-instagram"></i>
             </a>
             <a
-              href="https://www.vimeo.com"
+              href="https://vimeo.com/user18575069"
               target="_blank"
               rel="noopener noreferrer"
               className="me-3 text-secondary"
             >
               <i className="bi bi-vimeo"></i>
             </a>
-            <a
-              href="https://www.behance.net"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="me-3 text-secondary"
-            >
-              <i className="bi bi-behance"></i>
-            </a>
+
             <a
               href="mailto:example@example.com"
               className="me-3 text-secondary"
@@ -38,7 +31,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="text-body-secondary">
-            © 2024 Finnja Wilmer. All rights reserved. Web design by: Iker Luna
+            © 2024 Finnja Willner. All rights reserved. Web design by: Iker Luna
             Prototype V1.0
           </p>
         </footer>
