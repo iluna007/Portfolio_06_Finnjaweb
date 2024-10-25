@@ -2,8 +2,8 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <h2>An overview of data protection</h2>
+    <div className="container example">
+      <h2>1. An overview of data protection</h2>
       <h3>General</h3>
       <p>
         The following gives a simple overview of what happens to your personal
@@ -92,9 +92,9 @@ const PrivacyPolicy = () => {
         <br />
         c/o Custodis
         <br />
-        Lehrterstrasse 23
+        Lehrterstrasse 23
         <br />
-        10557 Berlin
+        10557 Berlin
         <br />
         Germany
         <br />

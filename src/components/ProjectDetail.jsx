@@ -18,7 +18,7 @@ const ProjectDetail = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container example">
       <div className="row mt-4">
         {/* Main Selected Image */}
         <div className="col-12 mb-4">
@@ -53,7 +53,7 @@ const ProjectDetail = () => {
       </div>
 
       {/* Project Description and Details */}
-      <div className="mt-4 border-top pt-4">
+      <div className="mt-4 border-top pt-4 example">
         <h1 className="mt-5">{project.title}</h1>
         <div className="row">
           {/* Project Description */}
@@ -79,7 +79,7 @@ const ProjectDetail = () => {
       </div>
 
       {/* Back Button */}
-      <div className="mt-4 border-top pt-4">
+      <div className="mt-4 border-top pt-4 example">
         <Link to="/projects" className="btn btn-outline-secondary mt-3">
           Back to Projects
         </Link>

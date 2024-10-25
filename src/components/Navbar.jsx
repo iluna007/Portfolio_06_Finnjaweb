@@ -12,15 +12,15 @@ const CustomNavbar = ({ artist }) => {
     >
       <Container>
         <BootstrapNavbar.Brand href="/">
-          <h1 className="mb-0">Finnja Willner</h1>
-          <p className="mb-0" style={{ color: "gray" }}>
+          <h1 className="mb-0 example">Finnja Willner</h1>
+          <p className="mb-0 example" style={{ color: "gray" }}>
             {artist}
           </p>
         </BootstrapNavbar.Brand>
 
         <BootstrapNavbar.Toggle aria-controls="navbarNavAltMarkup" />
         <BootstrapNavbar.Collapse id="navbarNavAltMarkup">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto example">
             <Nav.Item>
               <Link className="nav-link" to="/">
                 Home

@@ -14,7 +14,7 @@ const About = () => {
             paddingRight: "32px"
           }}
         >
-          <div className="row border-top">
+          <div className="row border-top example">
             <div className="col-2"></div>
             <div className="col">
               <h2 className="mt-5">About Finnja</h2>
@@ -77,7 +77,7 @@ const About = () => {
             </div>
             <div className="col-2"></div>
           </div>
-          <div className="row border-top">
+          <div className="row border-top example">
             <div className="col-2"></div>
             <div className="col">
               <h2 className="mt-5">Teaching/Workshop Facilitator:</h2>
@@ -149,7 +149,7 @@ const About = () => {
 
             <div className="col-2"></div>
           </div>
-          <div className="row border-top">
+          <div className="row border-top example">
             <div className="col-2"></div>
             <div className="col">
               <h2 className="mt-5">Clients</h2>

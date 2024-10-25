@@ -27,7 +27,7 @@ const Projects = ({ setArtist }) => {
   };
 
   return (
-    <div className="container">
+    <div className="container example">
       <div className="filter-buttons mt-5 mb-4 d-flex flex-wrap justify-content-center justify-content-md-between">
         <button
           className="btn btn-outline-secondary m-2"

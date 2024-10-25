@@ -13,3 +13,8 @@
 .masonry-grid-item {
   margin-bottom: 10px; /* Vertical spacing between items */
 }
+/* global.css */
+.example {
+  font-family: "acumin-variable", sans-serif;
+  font-variation-settings: "wght" 194.2857, "wdth" 100, "slnt" 0;
+}
