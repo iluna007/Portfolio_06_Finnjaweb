@@ -19,15 +19,9 @@ const Contact = () => {
           <div className="col-2"></div>
           <div className="col mt-5 border-bottom">
             <p>
-              <strong>Finnja Wilmer</strong>
+              <strong>Finnja Willner</strong>
               <br />
-              c/o Custodis
-              <br />
-              Lehrterstrasse 23
-              <br />
-              10557 Berlin
-              <br />
-              Germany
+              Berlin, Germany.
               <br />
               Telephone: +49 177 8598966
               <br />

@@ -18,6 +18,7 @@ const About = () => {
             <div className="col-2"></div>
             <div className="col">
               <h2 className="mt-5">About</h2>
+              <hr />
 
               <img
                 src="/About/fw1.jpeg"
