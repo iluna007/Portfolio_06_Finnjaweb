@@ -17,13 +17,14 @@ const About = () => {
           <div className="row border-top example">
             <div className="col-2"></div>
             <div className="col">
-              <h2 className="mt-5">About Finnja</h2>
+              <h2 className="mt-5">About</h2>
 
               <img
                 src="/About/fw1.jpeg"
                 alt="About Finnja"
-                className="img-fluid"
+                className="img-fluid rounded"
               />
+              <hr />
               <p>
                 Finnja Willner is a filmmaker, visual anthropologist,
                 transdisciplinary artist and somatic movement educator with
