@@ -86,8 +86,7 @@ const About = () => {
               <h2 className="mt-5">Teaching/Workshop Facilitator:</h2>
               <p>
                 <a href=" https://spots.deutsche-filmakademie.de/externe/wl-finnja-willner/">
-                  {" "}
-                  Spots
+                  Spots{" "}
                 </a>
                 create opportunities for democratic exchange with workshops on
                 film education and anti-discrimination (workshop facilitator in
@@ -95,7 +94,7 @@ const About = () => {
               </p>
               <p>
                 <a href="https://www.deutsche-kinemathek.de/de/besuch/bildung-vermittlung">
-                  Deutsche Kinemathek
+                  Deutsche Kinemathek{" "}
                 </a>
                 offers a variety of film workshops (facilitator for Stop Motion,
                 Meet Berlin Filmmakers and Smart Film Safari since 2017).
@@ -107,7 +106,7 @@ const About = () => {
               </p>
               <p>
                 <a href="https://utopiafilmarche.wordpress.com/about-us/">
-                  filmArche
+                  filmArche{" "}
                 </a>
                 Summer School brings filmmakers from all over the world together
                 to exchange and co-create at filmArche Berlin (organizer &
@@ -115,23 +114,22 @@ const About = () => {
               </p>
               <p>
                 <a
-                  href="                https://www.mannheimer-morgen.de/orte/mannheim_artikel,-mannheim-stadtteile-aus-buergersicht-als-film-_arid,1254818.html?&npg
+                  href="https://www.mannheimer-morgen.de/orte/mannheim_artikel,-mannheim-stadtteile-aus-buergersicht-als-film-_arid,1254818.html?&npg
 "
                 >
-                  {" "}
-                  Monnem Movies
+                  Monnem Movies{" "}
                 </a>
                 (project initiator & workshop facilitator in 2018).
               </p>
               <p>
                 <a href="https://grenzenlos-verein.jimdofree.com/unsere-projekte/empoderarte-frauen-machen-filme/">
-                  EmpoderArte
-                </a>{" "}
+                  EmpoderArte{" "}
+                </a>
                 Peru empowers women through filmmaking in Trujillo, Peru
                 (workshop facilitator in 2018).
               </p>
               <p>
-                <a href="https://c3mundos.org/de/cine-documental/">Cinetaya</a>{" "}
+                <a href="https://c3mundos.org/de/cine-documental/">Cinetaya </a>{" "}
                 (co-founder & workshop facilitator in 2015 & 2016) is a film
                 workshop initiative that offers documentary film workshops in an
                 intercultural context. The first workshops took place at the
@@ -139,7 +137,7 @@ const About = () => {
               </p>
               <p>
                 <a href="https://www.creative-city-berlin.de/en/events/event/reflection-of-a-dancing-body-with-finnja-willner/">
-                  Sensory Lab
+                  Sensory Lab{" "}
                 </a>
                 is a digital experiment to connect through senses & movement.
               </p>
