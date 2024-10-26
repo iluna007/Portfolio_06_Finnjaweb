@@ -14,18 +14,18 @@ const About = () => {
             paddingRight: "32px"
           }}
         >
-          <div className="row border-top example">
+          <div className="row  example">
             <div className="col-2"></div>
             <div className="col">
               <h2 className="mt-5">About</h2>
-              <hr />
 
+              <div className="mt-5"></div>
               <img
                 src="/About/fw1.jpeg"
                 alt="About Finnja"
                 className="img-fluid rounded"
               />
-              <hr />
+              <div className="mt-5"></div>
               <p>
                 Finnja Willner is a filmmaker, visual anthropologist,
                 transdisciplinary artist and somatic movement educator with
@@ -79,9 +79,10 @@ const About = () => {
             </div>
             <div className="col-2"></div>
           </div>
-          <div className="row border-top example">
+          <div className="row example">
             <div className="col-2"></div>
             <div className="col">
+              <hr />
               <h2 className="mt-5">Teaching/Workshop Facilitator:</h2>
               <p>
                 Spots create opportunities for democratic exchange with
@@ -151,9 +152,10 @@ const About = () => {
 
             <div className="col-2"></div>
           </div>
-          <div className="row border-top example">
+          <div className="row example">
             <div className="col-2"></div>
             <div className="col">
+              <hr />
               <h2 className="mt-5">Clients</h2>
               <p>xxx</p>
             </div>
