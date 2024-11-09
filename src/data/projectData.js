@@ -68,33 +68,35 @@ const projectData = [
   {
     id: 4,
     images: [
-      "/Projects/Baupalast%20Tor%20an%20Tor/tt1.jpeg",
-      "/Projects/Baupalast%20Tor%20an%20Tor/tt2.jpeg",
-      "/Projects/Baupalast%20Tor%20an%20Tor/tt3.jpeg"
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt1.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt2.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt3.jpg"
     ],
 
-    title: "Baupalast Tor an Tor",
+    title: "Tor an Tor",
     category: "Film",
-    place: "Germany",
-    year: "2019",
-    collaboration: "Maria Laura Vazquez",
+    place: "Berlin, Germany",
+    year: "2020",
+    collaboration: "Guerilla Architects, Offscreen",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "The film “Tor an Tor” (Gate to Gate) is the result of an artistic-documentary research about the future past of a long line of garages on the Dragoner Areal in Berlin Kreuzberg. The garages, their tenants and stories are the main protagonists and potential monuments that are to be preserved beyond the development process of the Rathausblock."
   },
   {
     id: 5,
     images: [
-      "/Projects/Bloody%20Rhythms/br1.jpeg",
-      "/Projects/Bloody%20Rhythms/br2.jpeg",
-      "/Projects/Bloody%20Rhythms/br3.jpeg"
+      "/Projects/Bloody%20Rhythms/br1.jpg",
+      "/Projects/Bloody%20Rhythms/br2.jpg",
+      "/Projects/Bloody%20Rhythms/br3.jpg",
+      "/Projects/Bloody%20Rhythms/br4.jpg",
+      "/Projects/Bloody%20Rhythms/br5.jpg",
     ],
     title: "Bloody Rhythms",
     category: "Performance",
-    place: "Germany",
-    year: "2019",
-    collaboration: "Maria Laura Vazquez",
+    place: "Berlin Germany",
+    year: "2022-2023",
+    collaboration: "Heike Kuhlmann, Jennie Zimmermann",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "Menstruation moves between hype and taboo, from the shadows into public awareness. Periods are political because a direct experience is made more difficult due to history and socialization. The feminist collective Nerka is exploring the intersection of dance, performance, somatics and menstruation. During a research period they developed a choreography which since then has been in an ever changing movement - just like menstruation does. At the Performing Arts Festival they share the practice of re-appropriation in an interactive performance and invite the public to come into contact with their own cycle through a guided sensory vision."
   },
   {
     id: 6,
