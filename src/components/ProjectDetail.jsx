@@ -6,6 +6,10 @@ const ProjectDetail = () => {
   const { id } = useParams();
   const project = projectData.find((p) => p.id === parseInt(id));
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   // Ensure the initial media is a valid link (either video or image)
   const [selectedMedia, setSelectedMedia] = useState(
     project && project.images.length > 0
@@ -16,6 +20,9 @@ const ProjectDetail = () => {
   );
 
   const [videoThumbnails, setVideoThumbnails] = useState([]);
+
+  // Scroll to the top of the page when the component mounts
+  
 
   useEffect(() => {
     const fetchVideoThumbnails = async () => {
