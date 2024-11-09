@@ -132,15 +132,18 @@ const projectData = [
       "/Projects/Cinetaya/cc7.jpg",
       "/Projects/Cinetaya/cc8.jpg",
       "/Projects/Cinetaya/cc9.jpg",
+      "/Projects/Cinetaya/cc10.jpg",
+      "/Projects/Cinetaya/cc11.jpg",
+      "/Projects/Cinetaya/cc12.jpg",
     ],
     videolink: "",
     title: "Cinetaya",
     category: "Workshop",
     place: "Granada, Nicaragua",
     year: "22015 - 2016",
-    collaboration: "Evelina Winkler, Casa Tres Mundos, ASA Programm",
+    collaboration: "Evelina Winkler, Casa Tres Mundos, Pan y Arte, ASA Programm, Gabriel Serra, Stalin Ocampo",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "In 2015 the first Cinetaya workshop was initiated by Finnja Willner and Evelina Winkler at the Foundation Casa Tres Mundos in Granada, Nicaragua. One of the guiding principles of their international film initiative is: ‘A country without documentary film is like a family without a photo album’ (Patricio Guzmán). With this in mind, the two german filmmakers realised two extensive workshops in the cultural center. The first took place from August to November 2015 and the follow-up workshop was held in September/October 2016. In addition to the theoretical knowledge transfer about all phases of documentary film production, the 15 participants were able to put the expertise they had learnt into practice. They slipped into the roles of film directors, screenwriters, cinematographers and film editors and collected stories of their hometown Granada and the everyday lives of its inhabitants. A series of successful short films were created during the workshops, which shared different life realities from their unique viewpoints. They were presented at the end of each course in the C3M auditorium. The subsequent audience discussion with the young directors provided an opportunity for an open exchange of experiences and opinions. The course was enriched by guest classes, additional screenings and director's talks held by Gabriel Serra (nominated for an Oscar in 2014) and British director Dominic Allan, among others.Since 2017 the workshops have been guided on by Stalin Ocampo, who also developed a web series with the new participants."
   },
   {
     id: 8,
@@ -225,18 +228,25 @@ const projectData = [
   {
     id: 13,
     images: [
-      "/Projects/Monnem%20Movies/mm1.jpeg",
-      "/Projects/Monnem%20Movies/mm2.jpeg",
-      "/Projects/Monnem%20Movies/mm3.jpeg"
+      "/Projects/Monnem%20Movies/mm1.jpg",
+      "/Projects/Monnem%20Movies/mm2.jpg",
+      "/Projects/Monnem%20Movies/mm3.jpg",
+      "/Projects/Monnem%20Movies/mm4.jpg",
+      "/Projects/Monnem%20Movies/mm5.jpg",
+      "/Projects/Monnem%20Movies/mm6.jpg",
+      "/Projects/Monnem%20Movies/mm7.jpg",
+      "/Projects/Monnem%20Movies/mm8.jpg",
+      "/Projects/Monnem%20Movies/mm9.jpg",
+      "/Projects/Monnem%20Movies/mm10.jpg",
     ],
     videolink: "",
     title: "Monnem Movies",
-    category: "Artist Residency",
-    place: "Germany",
-    year: "2019",
-    collaboration: "Maria Laura Vazquez",
+    category: "Woeekshop",
+    place: "Mannheim, Germany",
+    year: "2018",
+    collaboration: "Evelina Winkler, FORUM Mannheim",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "Stories lurk around every corner. Which ones do you encounter in everyday life? Who are the heroes and heroines in your neighbourhood?The bodybuilder who stands up for hedgehogs in his spare time, the old lady next door who invites people over late at night for a game of poker, the big oak tree on the street corner that is a meeting place for lovers and secret deals...The Monnem Movies workshop facilitated by Evelina Winkler and Finnja Willner aimed to challenge familiar perspectives and to make films together.During two months a group of all backgrounds and ages came together to learn about documentary filmmaking and shoot their own movies about what moves them in their city. The participants presented their final works at a beautiful open air cinema night with music and public discussions in the local urban gardens. And continued making movies together after the end of the course."
   },
   {
     id: 14,
