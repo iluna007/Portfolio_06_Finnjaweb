@@ -15,6 +15,7 @@ const projectData = [
       "/Projects/Almendrados%20y%20Tierra%20Roja/al11.jpg",
       "/Projects/Almendrados%20y%20Tierra%20Roja/al12.jpg",
     ],
+    videolink: "",
     title: "Almendrados y Tierra Roja",
     category: "Film",
     place: "La Palma, Canary Islands, Spain",
@@ -40,6 +41,7 @@ const projectData = [
       "/Projects/Analogue%20double%20exposure%20photography/an12.jpg",
     
     ],
+    videolink: "",
     title: "Analogue double exposure photography",
     category: "Photography",
     place: "xxx",
@@ -57,6 +59,7 @@ const projectData = [
       "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac4.jpg",
       "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac5.jpg",
     ],
+    videolink: "",
     title: "Avoir le Cors sour la main",
     category: "Workshop",
     place: "Paris, France / Online",
@@ -72,7 +75,7 @@ const projectData = [
       "/Projects/Baupalast%20Tor%20an%20Tor/tt2.jpg",
       "/Projects/Baupalast%20Tor%20an%20Tor/tt3.jpg"
     ],
-
+    videolink: "",
     title: "Tor an Tor",
     category: "Film",
     place: "Berlin, Germany",
@@ -90,6 +93,7 @@ const projectData = [
       "/Projects/Bloody%20Rhythms/br4.jpg",
       "/Projects/Bloody%20Rhythms/br5.jpg",
     ],
+    videolink: "",
     title: "Bloody Rhythms",
     category: "Performance",
     place: "Berlin Germany",
@@ -101,30 +105,40 @@ const projectData = [
   {
     id: 6,
     images: [
-      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm1.jpeg",
-      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm2.jpeg",
-      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm3.jpeg"
+      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm1.jpg",
+      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm2.jpg",
+      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm3.jpg",
+      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm4.jpg",
+      "/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm5.jpg",
     ],
-    title: "Cinema Mele Cinema Resiliente",
+    videolink: "",
+    title: "Cinema Mele, Cinema Resiliente",
     category: "Film",
-    place: "Italy",
-    year: "2019",
-    collaboration: "Maria Laura Vazquez",
+    place: "Pizzo, Italia",
+    year: "2023 - now",
+    collaboration: "Mora DeVincentis, Giuseppe Mele",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "xxx"
   },
   {
     id: 7,
     images: [
-      "/Projects/Cinetaya/cc1.jpeg",
-      "/Projects/Cinetaya/cc2.jpeg",
-      "/Projects/Cinetaya/cc3.jpeg"
+      "/Projects/Cinetaya/cc1.jpg",
+      "/Projects/Cinetaya/cc2.jpg",
+      "/Projects/Cinetaya/cc3.jpg",
+      "/Projects/Cinetaya/cc4.jpg",
+      "/Projects/Cinetaya/cc5.jpg",
+      "/Projects/Cinetaya/cc6.jpg",
+      "/Projects/Cinetaya/cc7.jpg",
+      "/Projects/Cinetaya/cc8.jpg",
+      "/Projects/Cinetaya/cc9.jpg",
     ],
+    videolink: "",
     title: "Cinetaya",
     category: "Workshop",
-    place: "Germany",
-    year: "2019",
-    collaboration: "Maria Laura Vazquez",
+    place: "Granada, Nicaragua",
+    year: "22015 - 2016",
+    collaboration: "Evelina Winkler, Casa Tres Mundos, ASA Programm",
     description:
       "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
   },
@@ -135,6 +149,7 @@ const projectData = [
       "/Projects/filmArche%20International%20Summer%20School/fa2.jpeg",
       "/Projects/filmArche%20International%20Summer%20School/fa3.jpeg"
     ],
+    videolink: "",
     title: "filmArche International Summer School",
     category: "Film",
     place: "Germany",
@@ -150,6 +165,7 @@ const projectData = [
       "/Projects/Isla%20de%20Mujeres/im2.jpeg",
       "/Projects/Isla%20de%20Mujeres/im3.jpeg"
     ],
+    videolink: "",
     title: "Isla de Mujeres",
     category: "Research",
     place: "Mexico",
@@ -165,6 +181,7 @@ const projectData = [
       "/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh2.jpeg",
       "/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh3.jpeg"
     ],
+    videolink: "",
     title: "Lieber hier eng wohnen",
     category: "Research",
     place: "Germany",
@@ -180,6 +197,7 @@ const projectData = [
       "/Projects/Living%20Temple%20Artist%20Residency/lt2.jpeg",
       "/Projects/Living%20Temple%20Artist%20Residency/lt3.jpeg"
     ],
+    videolink: "",
     title: "Living Temple Artist Residency",
     category: "Artist Residency",
     place: "India",
@@ -195,6 +213,7 @@ const projectData = [
       "/Projects/Los%20Colores%20de%20la%20Isla/ci2.jpeg",
       "/Projects/Los%20Colores%20de%20la%20Isla/ci3.jpeg"
     ],
+    videolink: "https://player.vimeo.com/video/1014723455",
     title: "Los Colores de la Isla",
     category: "Artist Residency",
     place: "Mexico",
@@ -210,6 +229,7 @@ const projectData = [
       "/Projects/Monnem%20Movies/mm2.jpeg",
       "/Projects/Monnem%20Movies/mm3.jpeg"
     ],
+    videolink: "",
     title: "Monnem Movies",
     category: "Artist Residency",
     place: "Germany",
@@ -225,6 +245,7 @@ const projectData = [
       "/Projects/Photography%20Portraits/pp2.jpeg",
       "/Projects/Photography%20Portraits/pp3.jpeg"
     ],
+    videolink: "",
     title: "Photography Portraits",
     category: "Photography",
     place: "Germany",
@@ -232,7 +253,48 @@ const projectData = [
     collaboration: "Maria Laura Vazquez",
     description:
       "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
-  }
+  },
+  {
+    id: 15,
+    images: [
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho1.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho2.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho3.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho4.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho5.jpg",
+      
+    ],
+    videolink: "https://player.vimeo.com/video/225394026",
+    title: "How about having a fascination of mind",
+    category: "Film",
+    place: "South Korea / Germany",
+    year: "2018",
+    collaboration: "Katti Jisuk Seo",
+    description:
+      "In South-Korea you can buy poop bread, DVD stores offer shelters for sex and a lot of people long to have a small face. German-Korean filmmaker Katti investigates those idiosyncracies of her mom’s home country. Together with her German filmpartner Finnja, Katti flies to Seoul to ask, why do Koreans appreciate poop? Where is the small face obsession coming from? What do the sex shelters show us about society? They find a poop philosopher, face shrinking massages and home making machines. Deep inside Korea, Katti longs to build a second home there while Finnja questions her own home idea."
+  },
+  {
+    id: 16,
+    images: [
+      "/Projects/draw%20love%20build%20Sauerbruch%20Hutton/dlb1.jpg",
+            
+    ],
+    videolink: ["https://player.vimeo.com/video/852604931",
+                "https://player.vimeo.com/video/852598627",
+                "https://player.vimeo.com/video/851198427",
+                "https://player.vimeo.com/video/851220986",
+                "https://player.vimeo.com/video/851217623",
+    ],
+    title: "draw love build - Sauerbruch Hutton exhibition films",
+    category: "Film",
+    place: "Museum M9, Venice Mestre, Italy",
+    year: "2021",
+    collaboration: "OFFscreen, Sauerbruch Hutton",
+    description:
+      "draw love build showed a selection of the architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 museum in Venice.Through a broad architectural panorama, the exhibition documented the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users. With OFFscreen Media we documented 18 buildings designed by the studio and the short films were part of the exhibition."
+  },
+  
+
 ];
 
 export default projectData;
