@@ -54,7 +54,7 @@ const ProjectDetail = () => {
 
       {/* Project Description and Details */}
       <div className="mt-4 border-top pt-4 example">
-        <h1 className="mt-5">{project.title}</h1>
+        <h1 className="mt-5 mb-5">{project.title}</h1>
         <div className="row">
           {/* Project Description */}
           <div className="col-12 col-md-6">

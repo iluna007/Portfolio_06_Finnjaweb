@@ -19,7 +19,7 @@ const projectData = [
     category: "Film",
     place: "La Palma, Canary Islands, Spain",
     year: "2022",
-    collaboration: "Maria Laura Vazquez",
+    collaboration: "Karmala Cultura, Miriam Hartwig, Raphael Reichl",
     description:
       "Almond Cookies and Red Soil is a documentary film about the encounter with Doña Quiteria, Servilia and their companions - women from Garafía, a rural area on the Canary Island La Palma, who have spent a lifetime living on and working this land. The camera becomes a witness of their poetry and joy in baking cookies in an oven house full of stories. The women take us on a journey through time to a hidden oven in the canyons and share how life in the countryside has changed with the passing of the years. The film is accompanied by a small book with the stories about the encounters the artists made during their stay."
   },
