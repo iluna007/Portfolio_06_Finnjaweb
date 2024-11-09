@@ -2,50 +2,68 @@ const projectData = [
   {
     id: 1,
     images: [
-      "/Projects/Almendrados%20y%20Tierra%20Roja/al1.jpeg",
-      "/Projects/Almendrados%20y%20Tierra%20Roja/al2.jpeg",
-      "/Projects/Almendrados%20y%20Tierra%20Roja/al3.jpeg",
-      "/Projects/Almendrados%20y%20Tierra%20Roja/al4.jpeg"
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al1.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al2.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al3.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al4.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al5.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al6.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al7.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al8.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al9.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al10.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al11.jpg",
+      "/Projects/Almendrados%20y%20Tierra%20Roja/al12.jpg",
     ],
     title: "Almendrados y Tierra Roja",
     category: "Film",
-    country: "Argentina",
-    year: "2019",
+    place: "La Palma, Canary Islands, Spain",
+    year: "2022",
     collaboration: "Maria Laura Vazquez",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "Almond Cookies and Red Soil is a documentary film about the encounter with Doña Quiteria, Servilia and their companions - women from Garafía, a rural area on the Canary Island La Palma, who have spent a lifetime living on and working this land. The camera becomes a witness of their poetry and joy in baking cookies in an oven house full of stories. The women take us on a journey through time to a hidden oven in the canyons and share how life in the countryside has changed with the passing of the years. The film is accompanied by a small book with the stories about the encounters the artists made during their stay."
   },
   {
     id: 2,
     images: [
-      "/Projects/Analogue%20double%20exposure%20photography/an1.jpeg",
-      "/Projects/Analogue%20double%20exposure%20photography/an2.jpeg",
-      "/Projects/Analogue%20double%20exposure%20photography/an3.jpeg",
-      "/Projects/Analogue%20double%20exposure%20photography/an4.jpeg"
+      "/Projects/Analogue%20double%20exposure%20photography/an1.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an2.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an3.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an4.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an5.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an6.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an7.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an8.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an9.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an10.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an11.jpg",
+      "/Projects/Analogue%20double%20exposure%20photography/an12.jpg",
+    
     ],
     title: "Analogue double exposure photography",
     category: "Photography",
-    country: "Germany",
-    year: "2019",
-    collaboration: "Maria Laura Vazquez",
+    place: "xxx",
+    year: "xxx",
+    collaboration: "xxx",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "xxx."
   },
   {
     id: 3,
     images: [
-      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac1.jpeg",
-      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac2.jpeg",
-      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac3.jpeg",
-      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac4.jpeg"
+      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac1.jpg",
+      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac2.jpg",
+      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac3.jpg",
+      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac4.jpg",
+      "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac5.jpg",
     ],
     title: "Avoir le Cors sour la main",
     category: "Workshop",
-    country: "France",
-    year: "2019",
-    collaboration: "Maria Laura Vazquez",
+    place: "Paris, France / Online",
+    year: "2021",
+    collaboration: "Rayén Mitrovic​, Patrixia Menjura",
     description:
-      "Lorem ipsum dolor sit amet. Sit soluta voluptatibus et esse eligendi et itaque perferendis aut iste autem eos quae repellendus. In sequi voluptatibus et libero aliquid sit commodi omnis et molestiae rerum ea voluptatem enim sit Quis temporibus.Sed velit quisquam et praesentium autem et magnam quod et nobis dignissimos. Ut animi quam aut similique explicabo qui consequuntur voluptate hic voluptates magnam et omnis nostrum. Qui quos incidunt aut repellendus corrupti At harum quibusdam."
+      "The project: ‘Avoir le Corps sous la Main’ - ‘With the body in the hand’ invites Spanish-speaking students to participate in a workshop of encounter and exchange around artistic research-creation in the context of the pandemic. In this space, we propose to develop artistic practices (performative, installation, audiovisual, etc.) that question the relationship between the intimate and the public in order to subvert current notions of proximity and social distance. This collective initiative seeks to investigate in our bodies intimate spaces of resistance to isolation."
   },
   {
     id: 4,
@@ -57,7 +75,7 @@ const projectData = [
 
     title: "Baupalast Tor an Tor",
     category: "Film",
-    country: "Germany",
+    place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -72,7 +90,7 @@ const projectData = [
     ],
     title: "Bloody Rhythms",
     category: "Performance",
-    country: "Germany",
+    place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -87,7 +105,7 @@ const projectData = [
     ],
     title: "Cinema Mele Cinema Resiliente",
     category: "Film",
-    country: "Italy",
+    place: "Italy",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -102,7 +120,7 @@ const projectData = [
     ],
     title: "Cinetaya",
     category: "Workshop",
-    country: "Germany",
+    place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -117,7 +135,7 @@ const projectData = [
     ],
     title: "filmArche International Summer School",
     category: "Film",
-    country: "Germany",
+    place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -132,7 +150,7 @@ const projectData = [
     ],
     title: "Isla de Mujeres",
     category: "Research",
-    country: "Mexico",
+    place: "Mexico",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -147,7 +165,7 @@ const projectData = [
     ],
     title: "Lieber hier eng wohnen",
     category: "Research",
-    country: "Germany",
+    place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -162,7 +180,7 @@ const projectData = [
     ],
     title: "Living Temple Artist Residency",
     category: "Artist Residency",
-    country: "India",
+    place: "India",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -177,7 +195,7 @@ const projectData = [
     ],
     title: "Los Colores de la Isla",
     category: "Artist Residency",
-    country: "Mexico",
+    place: "Mexico",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -192,7 +210,7 @@ const projectData = [
     ],
     title: "Monnem Movies",
     category: "Artist Residency",
-    country: "Germany",
+    place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:
@@ -207,7 +225,7 @@ const projectData = [
     ],
     title: "Photography Portraits",
     category: "Photography",
-    country: "Germany",
+    place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
     description:

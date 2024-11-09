@@ -18,6 +18,8 @@ const Contact = () => {
         <div className="row">
           <div className="col-2"></div>
           <div className="col mt-5 border-bottom">
+            <p>If you want to collaborate with me, please reach out.
+            </p>
             <p>
               <strong>Finnja Willner</strong>
               <br />

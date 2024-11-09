@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import projectData from "../data/projectData";
 
@@ -66,7 +66,7 @@ const ProjectDetail = () => {
               <strong>Category:</strong> {project.category}
             </p>
             <p>
-              <strong>Country:</strong> {project.country}
+              <strong>Place:</strong> {project.place}
             </p>
             <p>
               <strong>Year:</strong> {project.year}

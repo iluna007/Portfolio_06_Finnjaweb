@@ -1,4 +1,3 @@
-import React from "react";
 import "./Card.css"; // Create this CSS file for custom styles
 
 const Card = ({ image, title }) => {
