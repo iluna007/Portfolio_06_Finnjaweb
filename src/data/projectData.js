@@ -80,6 +80,7 @@ const projectData = [
       "/Projects/Baupalast%20Tor%20an%20Tor/tt7.jpg",
       "/Projects/Baupalast%20Tor%20an%20Tor/tt8.jpg",
       "/Projects/Baupalast%20Tor%20an%20Tor/tt9.jpg",
+    
     ],
     videolink: "",
     title: "Baupalast / Tor an Tor",
@@ -278,6 +279,14 @@ const projectData = [
       "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho3.jpg",
       "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho4.jpg",
       "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho5.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho6.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho7.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho8.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho9.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho10.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho11.jpg",
+      "/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho12.jpg",
+      
       
     ],
     videolink: "https://player.vimeo.com/video/225394026",
@@ -312,19 +321,22 @@ const projectData = [
   {
     id: 17,
     images: [
-      "/Projects/Cristol%20Artist%20Residency/cri1.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri2.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri3.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri4.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri5.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri6.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri7.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri8.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri9.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri10.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri11.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri12.jpg",
-      "/Projects/Cristol%20Artist%20Residency/cri13.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri1.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri2.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri3.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri4.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri5.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri6.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri7.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri8.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri9.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri10.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri11.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri12.jpg",
+      "/Projects/Crisol%20Artist%20Residency/cri13.jpg",
+
+      
+      
     ],
     videolink: [],
     title: "Crisol",
