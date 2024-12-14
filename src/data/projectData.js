@@ -15,7 +15,7 @@ const projectData = [
       "/Projects/Almendrados%20y%20Tierra%20Roja/al11.jpg",
       "/Projects/Almendrados%20y%20Tierra%20Roja/al12.jpg",
     ],
-    videolink: "",
+    videolink: "https://player.vimeo.com/video/854277465",
     title: "Almendrados y Tierra Roja",
     category: "Film",
     place: "La Palma, Canary Islands, Spain",
@@ -60,7 +60,7 @@ const projectData = [
       "/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac5.jpg",
     ],
     videolink: "",
-    title: "Avoir le Cors sour la main",
+    title: "Avoir le Corps sous la Main",
     category: "Workshop",
     place: "Paris, France / Online",
     year: "2021",
@@ -73,16 +73,22 @@ const projectData = [
     images: [
       "/Projects/Baupalast%20Tor%20an%20Tor/tt1.jpg",
       "/Projects/Baupalast%20Tor%20an%20Tor/tt2.jpg",
-      "/Projects/Baupalast%20Tor%20an%20Tor/tt3.jpg"
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt3.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt4.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt5.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt6.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt7.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt8.jpg",
+      "/Projects/Baupalast%20Tor%20an%20Tor/tt9.jpg",
     ],
     videolink: "",
-    title: "Tor an Tor",
+    title: "Baupalast / Tor an Tor",
     category: "Film",
     place: "Berlin, Germany",
     year: "2020",
     collaboration: "Guerilla Architects, Offscreen",
     description:
-      "The film “Tor an Tor” (Gate to Gate) is the result of an artistic-documentary research about the future past of a long line of garages on the Dragoner Areal in Berlin Kreuzberg. The garages, their tenants and stories are the main protagonists and potential monuments that are to be preserved beyond the development process of the Rathausblock."
+      "The experimental film “Tor an Tor” (Gate to Gate) is the result of an artistic-documentary research about the future past of a long line of garages on the Dragoner Areal, an old barracks site from the mid 19th century in Berlin Kreuzberg. The garages, their tenants and stories are the main protagonists and potential monuments that are to be preserved beyond the development process of the Rathausblock. The film was edited in the format of the open garage door and screened as an installation right there. “Tor an Tor” has been part of the Baupalast (https://www.baupalast.berlin/)  project, a utopia taking shape: a place where the city can be designed together beyond participation. A place where, beyond thinking in terms of responsibilities, solutions can be developed together for a diverse coexistence in the city. A place where free spaces are created in a city that has less and less of them."
   },
   {
     id: 5,
@@ -301,7 +307,7 @@ const projectData = [
     year: "2021",
     collaboration: "OFFscreen, Sauerbruch Hutton",
     description:
-      "draw love build showed a selection of the architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 museum in Venice.Through a broad architectural panorama, the exhibition documented the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users. With OFFscreen Media we documented 18 buildings designed by the studio and the short films were part of the exhibition."
+      "draw love build showed a selection of the internationally renowned architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 Museum in Venice in 2021 and in Akademie der Künste Berlin in 2024/2025. Through a broad architectural panorama, the exhibition documented the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users. Together with OFFscreen Media, Finnja documented 18 buildings designed by the studio in short films that were part of the exhibition."
   },
   
 
