@@ -289,7 +289,26 @@ const projectData = [
     description:
       "In South-Korea you can buy poop bread, DVD stores offer shelters for sex and a lot of people long to have a small face. German-Korean filmmaker Katti investigates those idiosyncracies of her mom’s home country. Together with her German filmpartner Finnja, Katti flies to Seoul to ask, why do Koreans appreciate poop? Where is the small face obsession coming from? What do the sex shelters show us about society? They find a poop philosopher, face shrinking massages and home making machines. Deep inside Korea, Katti longs to build a second home there while Finnja questions her own home idea."
   },
-  
+  {
+    id: 16,
+    images: [
+      "/Projects/draw%20love%20build%20Sauerbruch%20Hutton/dlb1.jpg",
+            
+    ],
+    videolink: ["https://player.vimeo.com/video/852604931",
+                "https://player.vimeo.com/video/852598627",
+                "https://player.vimeo.com/video/851198427",
+                "https://player.vimeo.com/video/851220986",
+                "https://player.vimeo.com/video/851217623",
+    ],
+    title: "draw love build - Sauerbruch Hutton exhibition films",
+    category: "Film",
+    place: "Museum M9, Venice Mestre, Italy",
+    year: "2021",
+    collaboration: "OFFscreen, Sauerbruch Hutton",
+    description:
+      "draw love build showed a selection of the internationally renowned architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 Museum in Venice in 2021 and in Akademie der Künste Berlin in 2024/2025. Through a broad architectural panorama, the exhibition documented the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users. Together with OFFscreen Media, Finnja documented 18 buildings designed by the studio in short films that were part of the exhibition."
+  },
   {
     id: 17,
     images: [
@@ -316,7 +335,7 @@ const projectData = [
     description:
       "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor … and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se. In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue photography.."
   },
-
+  
   
 
 ];
