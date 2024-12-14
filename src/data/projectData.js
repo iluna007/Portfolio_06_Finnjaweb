@@ -61,7 +61,7 @@ const projectData = [
     ],
     videolink: "",
     title: "Avoir le Corps sous la Main",
-    category: "Workshop",
+    category: "Research",
     place: "Paris, France / Online",
     year: "2021",
     collaboration: "Rayén Mitrovic​, Patrixia Menjura",
@@ -83,7 +83,7 @@ const projectData = [
     ],
     videolink: "",
     title: "Baupalast / Tor an Tor",
-    category: "Film",
+    category: "Research",
     place: "Berlin, Germany",
     year: "2020",
     collaboration: "Guerilla Architects, Offscreen",
@@ -101,7 +101,7 @@ const projectData = [
     ],
     videolink: "",
     title: "Bloody Rhythms",
-    category: "Performance",
+    category: "Research",
     place: "Berlin Germany",
     year: "2022-2023",
     collaboration: "Heike Kuhlmann, Jennie Zimmermann",
@@ -121,10 +121,10 @@ const projectData = [
     title: "Cinema Mele, Cinema Resiliente",
     category: "Film",
     place: "Pizzo, Italia",
-    year: "2023 - now",
+    year: "2023, in production",
     collaboration: "Mora DeVincentis, Giuseppe Mele",
     description:
-      "xxx"
+      "“The house is a container of memories. As we live and breathe, so does the house.” - The Poetics of Space by Gaston BachellardStanding on top of a steep sandstone rock, Cinema Mele is facing the open sea in Calabria/Southern Italy. Built by Giuseppe Meles grandfather in the 1950s, this unique place became a vibrant gathering point for the village's inhabitants to dance on the balcony overlooking the ocean and watch movies and theater plays with the sea breeze stroking their backs. Due to new safety regulations and rise of television, the cinema closed its doors in early 1990s, succumbing to the erosion of time, wind, salt, and rain. 20 years later, Giuseppe became the abandoned cinema's guardian. Striving to preserve it from decay, he turned it into a space for encounter and art, into a garden, into a home, into a place which welcomes the nonsense. The cinema represents a tale of resistance. A heritage with differing interests among family members. A strange body in a city seeking mass tourism and a region where corruption is thriving. A metaphor for collectivity and hope as well as for loneliness and despair. This experimental documentary tells the story of this place with its multiple identities from the very own perspective of the cinema itself."
   },
   {
     id: 7,
@@ -146,7 +146,7 @@ const projectData = [
     title: "Cinetaya",
     category: "Workshop",
     place: "Granada, Nicaragua",
-    year: "22015 - 2016",
+    year: "2015",
     collaboration: "Evelina Winkler, Casa Tres Mundos, Pan y Arte, ASA Programm, Gabriel Serra, Stalin Ocampo",
     description:
       "In 2015 the first Cinetaya workshop was initiated by Finnja Willner and Evelina Winkler at the Foundation Casa Tres Mundos in Granada, Nicaragua. One of the guiding principles of their international film initiative is: ‘A country without documentary film is like a family without a photo album’ (Patricio Guzmán). With this in mind, the two german filmmakers realised two extensive workshops in the cultural center. The first took place from August to November 2015 and the follow-up workshop was held in September/October 2016. In addition to the theoretical knowledge transfer about all phases of documentary film production, the 15 participants were able to put the expertise they had learnt into practice. They slipped into the roles of film directors, screenwriters, cinematographers and film editors and collected stories of their hometown Granada and the everyday lives of its inhabitants. A series of successful short films were created during the workshops, which shared different life realities from their unique viewpoints. They were presented at the end of each course in the C3M auditorium. The subsequent audience discussion with the young directors provided an opportunity for an open exchange of experiences and opinions. The course was enriched by guest classes, additional screenings and director's talks held by Gabriel Serra (nominated for an Oscar in 2014) and British director Dominic Allan, among others.Since 2017 the workshops have been guided on by Stalin Ocampo, who also developed a web series with the new participants."
@@ -160,7 +160,7 @@ const projectData = [
     ],
     videolink: "",
     title: "filmArche International Summer School",
-    category: "Film",
+    category: "Workshop",
     place: "Germany",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
@@ -176,7 +176,7 @@ const projectData = [
     ],
     videolink: "",
     title: "Isla de Mujeres",
-    category: "Research",
+    category: "Workshop",
     place: "Mexico",
     year: "2019",
     collaboration: "Maria Laura Vazquez",
@@ -247,7 +247,7 @@ const projectData = [
     ],
     videolink: "",
     title: "Monnem Movies",
-    category: "Woeekshop",
+    category: "Workshop",
     place: "Mannheim, Germany",
     year: "2018",
     collaboration: "Evelina Winkler, FORUM Mannheim",
@@ -289,26 +289,34 @@ const projectData = [
     description:
       "In South-Korea you can buy poop bread, DVD stores offer shelters for sex and a lot of people long to have a small face. German-Korean filmmaker Katti investigates those idiosyncracies of her mom’s home country. Together with her German filmpartner Finnja, Katti flies to Seoul to ask, why do Koreans appreciate poop? Where is the small face obsession coming from? What do the sex shelters show us about society? They find a poop philosopher, face shrinking massages and home making machines. Deep inside Korea, Katti longs to build a second home there while Finnja questions her own home idea."
   },
+  
   {
-    id: 16,
+    id: 17,
     images: [
-      "/Projects/draw%20love%20build%20Sauerbruch%20Hutton/dlb1.jpg",
-            
+      "/Projects/Cristol%20Artist%20Residency/cri1.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri2.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri3.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri4.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri5.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri6.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri7.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri8.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri9.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri10.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri11.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri12.jpg",
+      "/Projects/Cristol%20Artist%20Residency/cri13.jpg",
     ],
-    videolink: ["https://player.vimeo.com/video/852604931",
-                "https://player.vimeo.com/video/852598627",
-                "https://player.vimeo.com/video/851198427",
-                "https://player.vimeo.com/video/851220986",
-                "https://player.vimeo.com/video/851217623",
-    ],
-    title: "draw love build - Sauerbruch Hutton exhibition films",
-    category: "Film",
-    place: "Museum M9, Venice Mestre, Italy",
-    year: "2021",
-    collaboration: "OFFscreen, Sauerbruch Hutton",
+    videolink: [],
+    title: "Crisol",
+    category: "Artist Residency",
+    place: "Atlixco, Mexico",
+    year: "2024",
+    collaboration: "Flor, Allan Laurent, Anne Elzemann",
     description:
-      "draw love build showed a selection of the internationally renowned architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 Museum in Venice in 2021 and in Akademie der Künste Berlin in 2024/2025. Through a broad architectural panorama, the exhibition documented the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users. Together with OFFscreen Media, Finnja documented 18 buildings designed by the studio in short films that were part of the exhibition."
+      "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor … and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se. In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue photography.."
   },
+
   
 
 ];
