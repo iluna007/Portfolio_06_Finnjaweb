@@ -2,534 +2,556 @@ const projectData = [
 	{
 		id: 1,
 		images: [
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al1.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al2.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al3.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al4.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al5.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al6.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al7.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al8.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al9.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al10.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al11.jpg',
-			'/Projects/Almendrados%20y%20Tierra%20Roja/al12.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817266/al12_jad0al.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817265/al11_pflsjs.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817264/al10_al6tph.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817264/al9_dp8p3n.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817264/al8_hzgvfy.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817263/al7_x3bfwc.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817262/al6_owfsq5.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817261/al3_l6y9cy.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817261/al5_nxopcc.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817260/al4_tgmp2q.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817259/al1_jfzxtd.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817259/al2_kygym4.jpg",
 		],
-		videolink: 'https://player.vimeo.com/video/854277465',
-		title: 'Almendrados y Tierra Roja',
-		category: 'Film',
-		place: 'La Palma, Canary Islands, Spain',
-		year: '2022',
-		collaboration: 'Karmala Cultura, Miriam Hartwig, Raphael Reichl',
+		videolink: "https://player.vimeo.com/video/854277465",
+		title: "Almendrados y Tierra Roja",
+		category: "Film",
+		place: "La Palma, Canary Islands, Spain",
+		year: "2022",
+		collaboration: "Karmala Cultura, Miriam Hartwig, Raphael Reichl",
 		description: [
 			{
-				text: 'Almond Cookies and Red Soil is a documentary film about the encounter with Doña Quiteria, Servilia and their companions - women from Garafía, a rural area on the Canary Island La Palma, who have spent a lifetime living on and working this land.'
+				text: "Almond Cookies and Red Soil is a documentary film about the encounter with Doña Quiteria, Servilia and their companions - women from Garafía, a rural area on the Canary Island La Palma, who have spent a lifetime living on and working this land.",
 			},
 			{
-				text: 'The camera becomes a witness of their poetry and joy in baking cookies in an oven house full of stories. The women take us on a journey through time to a hidden oven in the canyons and share how life in the countryside has changed with the passing of the years.'
+				text: "The camera becomes a witness of their poetry and joy in baking cookies in an oven house full of stories. The women take us on a journey through time to a hidden oven in the canyons and share how life in the countryside has changed with the passing of the years.",
 			},
 			{
-				text: 'The film is accompanied by a small book with the stories about the encounters the artists made during their stay.'
-			}
-		]
+				text: "The film is accompanied by a small book with the stories about the encounters the artists made during their stay.",
+			},
+		],
 	},
 	{
 		id: 2,
 		images: [
-			'/Projects/Analogue%20double%20exposure%20photography/an1.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an2.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an3.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an4.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an5.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an6.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an7.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an8.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an9.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an10.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an11.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an12.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an13.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an14.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an15.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an16.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an17.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an18.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an19.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an20.jpg',
-			'/Projects/Analogue%20double%20exposure%20photography/an21.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817555/an1_iwbqk5.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817555/an10_fwuqrx.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817562/an11_dx4egd.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817564/an12_tmsb6h.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817568/an13_golz8y.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817566/an14_dw2lck.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817557/an15_aqnbkk.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817557/an16_copivr.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817558/an17_etdatp.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817562/an18_pfs7tv.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817559/an19_lyaggd.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817569/an2_i8ywyk.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817560/an20_lojuds.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817561/an21_jjqoqd.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817563/an3_ihq6my.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817570/an4_i7uequ.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817565/an5_sjby0x.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817567/an6_st7wwy.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817570/an7_gufjsp.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817571/an8_wlwh1p.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817572/an9_jaizt0.jpg",
 		],
-		videolink: '',
-		title: 'Analogue double exposure photography',
-		category: 'Photography',
-		place: 'Trans-spatial',
-		year: 'Multi-temporalities',
-		collaboration: '',
+		videolink: "",
+		title: "Analogue double exposure photography",
+		category: "Photography",
+		place: "Trans-spatial",
+		year: "Multi-temporalities",
+		collaboration: "",
 		description: [
 			{
-				text: 'Ser-hi no és altra cosa que un conjunt de casualitats. Creuar-nos és més atzarós encara. Mirar-nos, tocar-nos o compartir una estona, o moltes estones, és pràcticament un miracle. Dins d’aquella tassa de te que vam compartir, hi havia totes aquestes casualitats juntes i tot s’havia alineatperquè tu i jo, aquell matí, ens el beguéssim fent glopets. Mentre parlàvem sentíem el riu galopar, embarassat de peixos platejats i granotetes, recordàvem escenes del passat i en projectàvem de futures. A ulls de tothom, érem dues figures ben juntes prenent un te a la llera d’una gorga; però pels que hi veien més enllà, l’escena era molt més esplèndida. Assegudes, al nostre voltant, hi havia les nostres avantpassades, transparents i silencioses, carregades de vida, d’experiència, de secrets que havien arribat fins a nosaltres i de secrets que havien mort amb elles, i totes, sense fer soroll, s’apropaven i feien glopets d’aquella mateixa tassa, que no parava de fumejar.'
+				text: "Ser-hi no és altra cosa que un conjunt de casualitats. Creuar-nos és més atzarós encara. Mirar-nos, tocar-nos o compartir una estona, o moltes estones, és pràcticament un miracle. Dins d’aquella tassa de te que vam compartir, hi havia totes aquestes casualitats juntes i tot s’havia alineatperquè tu i jo, aquell matí, ens el beguéssim fent glopets. Mentre parlàvem sentíem el riu galopar, embarassat de peixos platejats i granotetes, recordàvem escenes del passat i en projectàvem de futures. A ulls de tothom, érem dues figures ben juntes prenent un te a la llera d’una gorga; però pels que hi veien més enllà, l’escena era molt més esplèndida. Assegudes, al nostre voltant, hi havia les nostres avantpassades, transparents i silencioses, carregades de vida, d’experiència, de secrets que havien arribat fins a nosaltres i de secrets que havien mort amb elles, i totes, sense fer soroll, s’apropaven i feien glopets d’aquella mateixa tassa, que no parava de fumejar.",
 			},
 			{
-				text: 'Mercè Vila Rigat, Montmeló, December 2024​'
-			}
-		]
+				text: "Mercè Vila Rigat, Montmeló, December 2024​",
+			},
+		],
 	},
 	{
 		id: 3,
 		images: [
-			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac2.jpg',
-			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac3.jpg',
-			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac4.jpg',
-			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac5.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817893/ac2_vxd7jj.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817896/ac5_sxoxxn.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817895/ac4_vf0dao.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817894/ac3_znuumz.jpg",
 		],
-		videolink: '',
-		title: 'Avoir le Corps sous la Main',
-		category: ['Research', 'Performance'],
-		place: 'Paris, France / Online',
-		year: '2021',
-		collaboration: 'Rayén Mitrovic​, Patrixia Menjura',
+		videolink: "",
+		title: "Avoir le Corps sous la Main",
+		category: ["Research", "Performance"],
+		place: "Paris, France / Online",
+		year: "2021",
+		collaboration: "Rayén Mitrovic​, Patrixia Menjura",
 		description: [
 			{
-				text: 'The project: ‘Avoir le Corps sous la Main’ - ‘With the body in the hand’ invites Spanish-speaking students to participate in a workshop of encounter and exchange around artistic research-creation in the context of the pandemic. In this space, we propose to develop artistic practices (performative, installation, audiovisual, etc.) that question the relationship between the intimate and the public in order to subvert current notions of proximity and social distance.'
+				text: "The project: ‘Avoir le Corps sous la Main’ - ‘With the body in the hand’ invites Spanish-speaking students to participate in a workshop of encounter and exchange around artistic research-creation in the context of the pandemic. In this space, we propose to develop artistic practices (performative, installation, audiovisual, etc.) that question the relationship between the intimate and the public in order to subvert current notions of proximity and social distance.",
 			},
 			{
-				text: 'This collective initiative seeks to investigate in our bodies intimate spaces of resistance to isolation.'
-			}
-		]
+				text: "This collective initiative seeks to investigate in our bodies intimate spaces of resistance to isolation.",
+			},
+		],
 	},
 	{
 		id: 4,
 		images: [
-			'/Projects/Baupalast%20Tor%20an%20Tor/tt2.jpg',
-			'/Projects/Baupalast%20Tor%20an%20Tor/tt3.jpg',
-			'/Projects/Baupalast%20Tor%20an%20Tor/tt6.jpg',
-			'/Projects/Baupalast%20Tor%20an%20Tor/tt8.jpg',
-			'/Projects/Baupalast%20Tor%20an%20Tor/tt9.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817898/tt2_zlmdye.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817905/tt9_uh9f0p.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817904/tt8_miyquf.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817902/tt6_dbynxs.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817899/tt3_cgg1yt.jpg",
 		],
-		videolink: 'https://player.vimeo.com/video/1028019217',
-		title: 'Baupalast / Tor an Tor',
-		category: ['Research', 'Film'],
-		place: 'Berlin, Germany',
-		year: '2020',
-		collaboration: 'Guerilla Architects, Offscreen',
+		videolink: "https://player.vimeo.com/video/1028019217",
+		title: "Baupalast / Tor an Tor",
+		category: ["Research", "Film"],
+		place: "Berlin, Germany",
+		year: "2020",
+		collaboration: "Guerilla Architects, Offscreen",
 		description: [
 			{
-				text: 'The experimental film “Tor an Tor” (Gate to Gate) is the result of an artistic-documentary research about the future past of a long line of garages on the Dragoner Areal, an old barracks site from the mid 19th century in Berlin Kreuzberg. The garages, their tenants and stories are the main protagonists and potential monuments that are to be preserved beyond the development process of the Rathausblock. The film was edited in the format of the open garage door and screened as an installation right there.'
+				text: "The experimental film “Tor an Tor” (Gate to Gate) is the result of an artistic-documentary research about the future past of a long line of garages on the Dragoner Areal, an old barracks site from the mid 19th century in Berlin Kreuzberg. The garages, their tenants and stories are the main protagonists and potential monuments that are to be preserved beyond the development process of the Rathausblock. The film was edited in the format of the open garage door and screened as an installation right there.",
 			},
 			{
-				text: '“Tor an Tor” has been part of the ',
+				text: "“Tor an Tor” has been part of the ",
 				link: {
-					text: 'Baupalast',
-					url: 'https://www.baupalast.berlin/'
+					text: "Baupalast",
+					url: "https://www.baupalast.berlin/",
 				},
 				afterText:
-					' project, a utopia taking shape: a place where the city can be designed together beyond participation. A place where, beyond thinking in terms of responsibilities, solutions can be developed together for a diverse coexistence in the city. A place where free spaces are created in a city that has less and less of them.'
-			}
-		]
+					" project, a utopia taking shape: a place where the city can be designed together beyond participation. A place where, beyond thinking in terms of responsibilities, solutions can be developed together for a diverse coexistence in the city. A place where free spaces are created in a city that has less and less of them.",
+			},
+		],
 	},
 	{
 		id: 5,
 		images: [
-			'/Projects/Bloody%20Rhythms/br1.jpg',
-			'/Projects/Bloody%20Rhythms/br2.jpg',
-			'/Projects/Bloody%20Rhythms/br3.jpg',
-			'/Projects/Bloody%20Rhythms/br4.jpg',
-			'/Projects/Bloody%20Rhythms/br5.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817911/br5_cct4zp.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817910/br4_g3fnpc.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817909/br3_lrwuzi.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817908/br1_mcxdy6.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817906/br2_pa5nm6.jpg",
 		],
-		videolink: '',
-		title: 'Bloody Rhythms',
-		category: ['Research', 'Performance'],
-		place: 'Berlin Germany',
-		year: '2022-2023',
-		collaboration: 'Heike Kuhlmann, Jennie Zimmermann',
+		videolink: "",
+		title: "Bloody Rhythms",
+		category: ["Research", "Performance"],
+		place: "Berlin Germany",
+		year: "2022-2023",
+		collaboration: "Heike Kuhlmann, Jennie Zimmermann",
 		description: [
 			{
-				text: 'Menstruation moves between hype and taboo, from the shadows into public awareness. Periods are political because a direct experience is made more difficult due to history and socialization. The feminist collective Nerka is exploring the intersection of dance, performance, somatics and menstruation. During a research period they developed a choreography which since then has been in an ever changing movement - just like menstruation does.'
+				text: "Menstruation moves between hype and taboo, from the shadows into public awareness. Periods are political because a direct experience is made more difficult due to history and socialization. The feminist collective Nerka is exploring the intersection of dance, performance, somatics and menstruation. During a research period they developed a choreography which since then has been in an ever changing movement - just like menstruation does.",
 			},
 			{
-				text: 'At the Performing Arts Festival they share the practice of re-appropriation in an interactive performance and invite the public to come into contact with their own cycle through a guided sensory vision.'
-			}
-		]
+				text: "At the Performing Arts Festival they share the practice of re-appropriation in an interactive performance and invite the public to come into contact with their own cycle through a guided sensory vision.",
+			},
+		],
 	},
 	{
 		id: 6,
 		images: [
-			'/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm1.jpg',
-			'/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm2.jpg',
-			'/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm3.jpg',
-			'/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm4.jpg',
-			'/Projects/Cinema%20Mele%20Cinema%20Resiliente/cm5.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817912/cm1_eepoob.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817913/cm2_qgdm3j.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817948/cm4_h8mlrr.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817949/cm3_shgnix.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817956/cm5_hxbw9p.jpg",
 		],
-		videolink: 'https://player.vimeo.com/video/1031574159',
-		title: 'Cinema Mele, Cinema Resiliente',
-		category: 'Film',
-		place: 'Pizzo, Italia',
-		year: '2023, in production',
-		collaboration: 'Mora DeVincentis, Giuseppe Mele',
+		videolink: "https://player.vimeo.com/video/1031574159",
+		title: "Cinema Mele, Cinema Resiliente",
+		category: "Film",
+		place: "Pizzo, Italia",
+		year: "2023, in production",
+		collaboration: "Mora DeVincentis, Giuseppe Mele",
 		description: [
 			{
-				text: '“The house is a container of memories. As we live and breathe, so does the house.” - The Poetics of Space by Gaston Bachellard'
+				text: "“The house is a container of memories. As we live and breathe, so does the house.” - The Poetics of Space by Gaston Bachellard",
 			},
 			{
-				text: "Standing on top of a steep sandstone rock, Cinema Mele is facing the open sea in Calabria/Southern Italy. Built by Giuseppe Mele's grandfather in the 1950s, this unique place became a vibrant gathering point for the village's inhabitants to dance on the balcony overlooking the ocean and watch movies and theater plays with the sea breeze stroking their backs."
+				text: "Standing on top of a steep sandstone rock, Cinema Mele is facing the open sea in Calabria/Southern Italy. Built by Giuseppe Mele's grandfather in the 1950s, this unique place became a vibrant gathering point for the village's inhabitants to dance on the balcony overlooking the ocean and watch movies and theater plays with the sea breeze stroking their backs.",
 			},
 			{
-				text: 'Striving to preserve it from decay, he turned it into a space for encounter and art, into a garden, into a home, into a place which welcomes the nonsense. The cinema represents a tale of resistance. A heritage with differing interests among family members. A strange body in a city seeking mass tourism and a region where corruption is thriving. A metaphor for collectivity and hope as well as for loneliness and despair. This experimental documentary tells the story of this place with its multiple identities from the very own perspective of the cinema itself.'
-			}
-		]
+				text: "Striving to preserve it from decay, he turned it into a space for encounter and art, into a garden, into a home, into a place which welcomes the nonsense. The cinema represents a tale of resistance. A heritage with differing interests among family members. A strange body in a city seeking mass tourism and a region where corruption is thriving. A metaphor for collectivity and hope as well as for loneliness and despair. This experimental documentary tells the story of this place with its multiple identities from the very own perspective of the cinema itself.",
+			},
+		],
 	},
 	{
 		id: 7,
 		images: [
-			'/Projects/Cinetaya/cc1.jpg',
-			'/Projects/Cinetaya/cc2.jpg',
-			'/Projects/Cinetaya/cc3.jpg',
-			'/Projects/Cinetaya/cc4.jpg',
-			'/Projects/Cinetaya/cc5.jpg',
-			'/Projects/Cinetaya/cc6.jpg',
-			'/Projects/Cinetaya/cc7.jpg',
-			'/Projects/Cinetaya/cc8.jpg',
-			'/Projects/Cinetaya/cc9.jpg',
-			'/Projects/Cinetaya/cc10.jpg',
-			'/Projects/Cinetaya/cc11.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817914/cc1_tca6un.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817917/cc2_gls2c9.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817918/cc3_ukq15s.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817950/cc5_dmriky.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817958/cc7_qzme0t.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817960/cc9_uokxup.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817962/cc4_e0wrhf.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817962/cc6_b8crod.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817963/cc11_ocmiau.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817963/cc10_tigyh4.jpg",
 		],
-		videolink: '',
-		title: 'Cinetaya',
-		category: ['Workshop', 'Film'],
-		place: 'Granada, Nicaragua',
-		year: '2015 / 2016',
-		collaboration: 'Evelina Winkler, Fundación​ ​Casa Tres Mundos, ASA Programm, Gabriel Serra, Stalin Ocampo',
+		videolink: "",
+		title: "Cinetaya",
+		category: ["Workshop", "Film"],
+		place: "Granada, Nicaragua",
+		year: "2015 / 2016",
+		collaboration:
+			"Evelina Winkler, Fundación​ ​Casa Tres Mundos, ASA Programm, Gabriel Serra, Stalin Ocampo",
 		description: [
 			{
-				text: 'In 2015 the first Cinetaya workshop was initiated by Finnja Willner and Evelina Winkler at the Foundation Casa Tres Mundos in Granada, Nicaragua. A guiding principle of their international film initiative is: ‘A country without documentary film is like a family without a photo album’ (Patricio Guzmán). With this in mind, the two filmmakers realised two extensive workshops in the cultural center. The first took place from August to November 2015 and the follow-up was held in September/October 2016. In addition to the theoretical knowledge transfer about all phases of documentary film production, the participants were able to put the expertise they had learnt into practice. They slipped into the roles of film directors, screenwriters, cinematographers and film editors and collected stories of their hometown Granada and the everyday lives of its inhabitants.'
+				text: "In 2015 the first Cinetaya workshop was initiated by Finnja Willner and Evelina Winkler at the Foundation Casa Tres Mundos in Granada, Nicaragua. A guiding principle of their international film initiative is: ‘A country without documentary film is like a family without a photo album’ (Patricio Guzmán). With this in mind, the two filmmakers realised two extensive workshops in the cultural center. The first took place from August to November 2015 and the follow-up was held in September/October 2016. In addition to the theoretical knowledge transfer about all phases of documentary film production, the participants were able to put the expertise they had learnt into practice. They slipped into the roles of film directors, screenwriters, cinematographers and film editors and collected stories of their hometown Granada and the everyday lives of its inhabitants.",
 			},
 			{
-				text: "A series of successful short films were created during the workshops, which shared different life realities from their unique viewpoints. They were presented at the end of each course in the C3M auditorium. The subsequent audience discussion with the young directors provided an opportunity for an open exchange of experiences and opinions. The course was enriched by guest classes, additional screenings and director's talks held by Gabriel Serra (nominated for an Oscar in 2014) and British director Dominic Allan, among others."
+				text: "A series of successful short films were created during the workshops, which shared different life realities from their unique viewpoints. They were presented at the end of each course in the C3M auditorium. The subsequent audience discussion with the young directors provided an opportunity for an open exchange of experiences and opinions. The course was enriched by guest classes, additional screenings and director's talks held by Gabriel Serra (nominated for an Oscar in 2014) and British director Dominic Allan, among others.",
 			},
 			{
-				text: 'Since 2017 the workshops have been guided by Stalin Ocampo, who also developed a web series with the new participants.'
+				text: "Since 2017 the workshops have been guided by Stalin Ocampo, who also developed a web series with the new participants.",
 			},
 			{
-				text: 'Funded by: COSUDE, BMZ, Embassy of Germany'
-			}
-		]
+				text: "Funded by: COSUDE, BMZ, Embassy of Germany",
+			},
+		],
 	},
 	{
 		id: 8,
 		images: [
-			'/Projects/filmArche%20International%20Summer%20School/fa1.jpeg',
-			'/Projects/filmArche%20International%20Summer%20School/fa2.jpeg',
-			'/Projects/filmArche%20International%20Summer%20School/fa5.jpeg',
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817080/fa1_hxrxbc.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817078/fa7_ngslut.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817078/fa11_bkykh0.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817078/fa8_d5myvy.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817078/fa6_zskmhk.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817079/fa9_sp4w1k.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817079/fa4_ngknam.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817079/fa10_jw4mdw.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817080/fa2_bdnwec.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817080/fa3_abf5sh.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817080/fa5_bcigbg.jpg",
 		],
-		videolink: '',
-		title: 'filmArche Utopia Summer School',
-		category: ['Workshop', 'Film'],
-		place: 'Germany',
-		year: '2018 / 2019',
-		collaboration: 'filmArche, SODI',
+		videolink: "",
+		title: "filmArche Utopia Summer School",
+		category: ["Workshop", "Film"],
+		place: "Germany",
+		year: "2018 / 2019",
+		collaboration: "filmArche, SODI",
 		description: [
 			{
-				text: "In 2018 and 2019 filmmakers from all over the world came together in filmArche, Europe's largest self-organized film school for two intense weeks of workshops, project development, screenings, discussions, international collaborations and exchange. Both summer schools concluded with a multimedia exhibition of the works the participants created throughout the time, including photography, video installations, screenings and performance."
-			}
-		]
+				text: "In 2018 and 2019 filmmakers from all over the world came together in filmArche, Europe's largest self-organized film school for two intense weeks of workshops, project development, screenings, discussions, international collaborations and exchange. Both summer schools concluded with a multimedia exhibition of the works the participants created throughout the time, including photography, video installations, screenings and performance.",
+			},
+		],
 	},
 	{
 		id: 9,
 		images: [
-			'/Projects/Isla%20de%20Mujeres/im1.jpeg',
-			'/Projects/Isla%20de%20Mujeres/im2.jpeg',
-			'/Projects/Isla%20de%20Mujeres/im3.jpeg',
-			'/Projects/Isla%20de%20Mujeres/im4.jpeg',
-			'/Projects/Isla%20de%20Mujeres/im5.jpeg',
-			'/Projects/Isla%20de%20Mujeres/im7.jpeg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817630/im1_msc0dc.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817631/im10_gdrq02.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817632/im11_thmh1g.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817633/im2_r9fczj.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817634/im3_nalk1o.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817635/im4_hxfjlt.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817637/im5_wq1rhp.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817639/im7_gamoge.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817640/im8_xmo9qo.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817641/im9_wguvs2.jpg",
 		],
-		videolink: '',
-		title: 'Isla de Mujeres',
-		category: ['Workshop', 'Research'],
-		place: 'La Palma, Canary Islands, Spain',
-		year: '2021',
-		collaboration: 'Karmala Cultura',
+		videolink: "",
+		title: "Isla de Mujeres",
+		category: ["Workshop", "Research"],
+		place: "La Palma, Canary Islands, Spain",
+		year: "2021",
+		collaboration: "Karmala Cultura",
 		description: [
 			{
-				text: 'In the frame of the project Isla de Mujeres initiated by Karmala Cultura, Finnja developed several workshops/laboratories which seek to provide spaces and time to immerse a collective of women in an experience focused on connecting to their territory, bodies and among each other through storytelling, somatics and creation in a collaborative and situated way.'
-			}
-		]
+				text: "In the frame of the project Isla de Mujeres initiated by Karmala Cultura, Finnja developed several workshops/laboratories which seek to provide spaces and time to immerse a collective of women in an experience focused on connecting to their territory, bodies and among each other through storytelling, somatics and creation in a collaborative and situated way.",
+			},
+		],
 	},
 	{
 		id: 10,
 		images: [
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh1.jpeg',
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh2.jpeg',
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh3.jpeg',
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh4.jpeg',
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh5.jpeg',
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh6.jpeg',
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh8.jpeg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817933/lh13_cewatr.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817935/lh10_psu5lt.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817868/lh8_uompgk.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817867/lh5_dwwfw9.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817866/lh4_njapwh.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817865/lh16_t1fwh8.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817864/lh14_gke0gv.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817863/lh15_v3sebr.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817861/lh12_ojrcuz.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817859/lh1_yl4y3v.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817855/lh6_ceedh5.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817854/lh3_y0d5cr.jpg",
 		],
-		videolink: '',
-		title: 'Lieber hier eng wohnen - Feminist Spaces in Berlin',
-		category: 'Research',
-		place: 'Berlin, Germany',
-		year: '2021',
+		videolink: "",
+		title: "Lieber hier eng wohnen - Feminist Spaces in Berlin",
+		category: "Research",
+		place: "Berlin, Germany",
+		year: "2021",
 		collaboration:
-			'Miri Bauer, Franziska Benkel, Elaine Bonavia, Johanna Markert, Fateme Nekounam, Valerie Terwei, aquarium space Südblock, narrativ e.V.z',
+			"Miri Bauer, Franziska Benkel, Elaine Bonavia, Johanna Markert, Fateme Nekounam, Valerie Terwei, aquarium space Südblock, narrativ e.V.z",
 		description: [
 			{
-				text: 'LIEBER HIER ENG WOHNEN – Feminist Spaces in Berlin is a historical project about the emergence of the First Women’s Shelter in Berlin-West, founded in 1976. After a period of research, co-creation and interventions, the feminist collective around the project organised an exhibition with workshops and panels in September 2021 at aquarium space, Berlin-Kreuzberg. The Discussion about domestic and gender based violence shown in the video was part of the exhibition.'
+				text: "LIEBER HIER ENG WOHNEN – Feminist Spaces in Berlin is a historical project about the emergence of the First Women’s Shelter in Berlin-West, founded in 1976. After a period of research, co-creation and interventions, the feminist collective around the project organised an exhibition with workshops and panels in September 2021 at aquarium space, Berlin-Kreuzberg. The Discussion about domestic and gender based violence shown in the video was part of the exhibition.",
 			},
 			{
-				text: 'Berlin needs feminist and discrimination-free spaces for FLINTA (women, lesbians, *inter-, non-binary, *trans- and asexual people). To share experiences of violence with others in a safe place and to become a movement means to act against the taboo and privatization of structural violence.'
+				text: "Berlin needs feminist and discrimination-free spaces for FLINTA (women, lesbians, *inter-, non-binary, *trans- and asexual people). To share experiences of violence with others in a safe place and to become a movement means to act against the taboo and privatization of structural violence.",
 			},
 			{
-				text: 'Funded by: Senatsverwaltung für Kultur und Europa Berlin'
-			}
-		]
+				text: "Funded by: Senatsverwaltung für Kultur und Europa Berlin",
+			},
+		],
 	},
 	{
 		id: 11,
 		images: [
-			'/Projects/Living%20Temple%20Artist%20Residency/lt1.jpeg',
-			'/Projects/Living%20Temple%20Artist%20Residency/lt2.jpeg',
-			'/Projects/Living%20Temple%20Artist%20Residency/lt3.jpeg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817647/lt4_h8gu8j.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817643/lt10_iy0vfw.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817644/lt11_wtrga3.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817646/lt12_ijmutc.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817648/lt5_xhduzq.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817649/lt8_nf8cls.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817650/lt7_pshfbc.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817659/lt9_rhccuj.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817856/lt6_agj7vx.jpg",
 		],
-		videolink: '',
-		title: 'Living Temple Artist Residency',
-		category: ['Artist Residency', 'Research'],
-		place: 'Berlin, Germany',
-		year: '2019',
+		videolink: "",
+		title: "Living Temple Artist Residency",
+		category: ["Artist Residency", "Research"],
+		place: "Berlin, Germany",
+		year: "2019",
 		collaboration:
-			'Hilbert Raum, Aleka Medina, Avant Garden, Balthazar Blumberg, Julian Santana, Matteo Desantis, Mano Leyrado, LAN Hungh, Luz Peuscovich, Olivia Igual, Rayen Mitrovich, Ssmidd, Yugal Galili',
+			"Hilbert Raum, Aleka Medina, Avant Garden, Balthazar Blumberg, Julian Santana, Matteo Desantis, Mano Leyrado, LAN Hungh, Luz Peuscovich, Olivia Igual, Rayen Mitrovich, Ssmidd, Yugal Galili",
 		description: [
 			{
-				text: "“Any ritual is an opportunity for transformation. To do a ritual, you must be willing to be transformed in some way. The inner willingness is what makes the ritual come alive and have power. If you aren't willing to be changed by the ritual, don't do it.”"
+				text: "“Any ritual is an opportunity for transformation. To do a ritual, you must be willing to be transformed in some way. The inner willingness is what makes the ritual come alive and have power. If you aren't willing to be changed by the ritual, don't do it.”",
 			},
 			{
-				text: '- Starhawk, American writer, teacher and activist'
+				text: "- Starhawk, American writer, teacher and activist",
 			},
 			{
-				text: 'The aim of this project is to explore the relation which exists between the creation and production of rites and the creation and production of art in seven days. During these days, the participating artists will explore and develop from day to day their own common ritual involving gestures, words, objects, healing, sound in order to interconnect with each other and to inhabit the space.'
+				text: "The aim of this project is to explore the relation which exists between the creation and production of rites and the creation and production of art in seven days. During these days, the participating artists will explore and develop from day to day their own common ritual involving gestures, words, objects, healing, sound in order to interconnect with each other and to inhabit the space.",
 			},
 			{
-				text: 'The artists work together, as a community to co-create a Ritual that invites the public to go on a journey. In order to do so, each of them creates an activity - following the concept of creation or ritual during the week of production - residency.'
+				text: "The artists work together, as a community to co-create a Ritual that invites the public to go on a journey. In order to do so, each of them creates an activity - following the concept of creation or ritual during the week of production - residency.",
 			},
 			{
-				text: 'Curated by: Leslie Ranzoni, Stephanie Fenner, Eli Cornejo and Juan Arata'
-			}
-		]
+				text: "Curated by: Leslie Ranzoni, Stephanie Fenner, Eli Cornejo and Juan Arata",
+			},
+		],
 	},
 	{
 		id: 12,
 		images: [
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci1.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci2.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci3.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci4.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci5.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci6.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci7.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci8.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci9.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci10.jpeg',
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817852/ci1_ierkzs.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817870/ci3_v2zoal.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817872/ci10_tlymht.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817873/ci7_rohmro.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817874/ci8_jjpd2q.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817937/ci4_rc7xls.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817940/ci6_sdlkl6.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817941/ci9_sbsovv.jpg",
 		],
-		videolink: 'https://player.vimeo.com/video/1014723455',
-		title: 'Los Colores de la Isla',
-		category: 'Artist Residency',
-		place: 'La Palma, Canary Islands, Spain',
-		year: '2021',
-		collaboration: 'Miriam Hartwig, Karmala Cultura',
+		videolink: "https://player.vimeo.com/video/1014723455",
+		title: "Los Colores de la Isla",
+		category: "Artist Residency",
+		place: "La Palma, Canary Islands, Spain",
+		year: "2021",
+		collaboration: "Miriam Hartwig, Karmala Cultura",
 		description: [
 			{
-				text: 'Los Colores de la Isla (The colours of the Island) has been an experimental research residency by the artists Finnja Willner and Miriam Hartwig on dyeing with natural pigments. They went on a journey through colours and local stories on the canary island La Palma.'
+				text: "Los Colores de la Isla (The colours of the Island) has been an experimental research residency by the artists Finnja Willner and Miriam Hartwig on dyeing with natural pigments. They went on a journey through colours and local stories on the canary island La Palma.",
 			},
 			{
-				text: 'During one summer they lived in the rural area of Garafía, experimented with different techniques and material and worked what came across their way into a long fabric - almond shells from their garden, eucalyptus leaves from the big tree in front of the chapel up the road, fruits from the local farmers or carbonised wood from the last big forest fire.'
+				text: "During one summer they lived in the rural area of Garafía, experimented with different techniques and material and worked what came across their way into a long fabric - almond shells from their garden, eucalyptus leaves from the big tree in front of the chapel up the road, fruits from the local farmers or carbonised wood from the last big forest fire.",
 			},
 			{
-				text: 'It became a colourful visual diary of the stories and encounters of the region which the artists experienced - and the tablecloth where they received the guests for their open studio. While sharing artworks, stories and experiences over the flavours of the region, their guests also left their traces on the fabric.'
-			}
-		]
+				text: "It became a colourful visual diary of the stories and encounters of the region which the artists experienced - and the tablecloth where they received the guests for their open studio. While sharing artworks, stories and experiences over the flavours of the region, their guests also left their traces on the fabric.",
+			},
+		],
 	},
 	{
 		id: 13,
 		images: [
-			'/Projects/Monnem%20Movies/mm1.jpg',
-			'/Projects/Monnem%20Movies/mm2.jpg',
-			'/Projects/Monnem%20Movies/mm3.jpg',
-			'/Projects/Monnem%20Movies/mm4.jpg',
-			'/Projects/Monnem%20Movies/mm5.jpg',
-			'/Projects/Monnem%20Movies/mm6.jpg',
-			'/Projects/Monnem%20Movies/mm7.jpg',
-			'/Projects/Monnem%20Movies/mm8.jpg',
-			'/Projects/Monnem%20Movies/mm9.jpg',
-			'/Projects/Monnem%20Movies/mm10.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817876/mm1_vb1jpl.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817876/mm10_dhpsnz.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817877/mm2_bjt7qn.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817878/mm3_ta5kpq.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817879/mm4_nbrhbh.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817881/mm5_bqbg1a.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817881/mm7_p99ybb.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817952/mm9_ubqvaw.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817953/mm8_hf4uh2.jpg",
 		],
-		videolink: '',
-		title: 'Monnem Movies',
-		category: ['Workshop', 'Film'],
-		place: 'Mannheim, Germany',
-		year: '2018',
-		collaboration: 'Evelina Winkler, FORUM Mannheim',
+		videolink: "",
+		title: "Monnem Movies",
+		category: ["Workshop", "Film"],
+		place: "Mannheim, Germany",
+		year: "2018",
+		collaboration: "Evelina Winkler, FORUM Mannheim",
 		description: [
 			{
-				text: 'Stories lurk around every corner. Which ones do you encounter in everyday life? Who are the heroes and heroines in your neighbourhood?'
+				text: "Stories lurk around every corner. Which ones do you encounter in everyday life? Who are the heroes and heroines in your neighbourhood?",
 			},
 			{
-				text: 'The bodybuilder who stands up for hedgehogs in his spare time, the old lady next door who invites people over late at night for a game of poker, the big oak tree on the street corner that is a meeting place for lovers and secret deals...'
+				text: "The bodybuilder who stands up for hedgehogs in his spare time, the old lady next door who invites people over late at night for a game of poker, the big oak tree on the street corner that is a meeting place for lovers and secret deals...",
 			},
 			{
-				text: 'The Monnem Movies workshop facilitated by Evelina Winkler and Finnja Willner aimed to challenge familiar perspectives and to make films together.'
+				text: "The Monnem Movies workshop facilitated by Evelina Winkler and Finnja Willner aimed to challenge familiar perspectives and to make films together.",
 			},
 			{
-				text: 'During two months a group of all backgrounds and ages came together to learn about documentary filmmaking and shoot their own movies about what moves them in their city. The participants presented their final works at a beautiful open air cinema night with music and public discussions in the local urban gardens. And continued making movies together after the end of the course.'
-			}
-		]
+				text: "During two months a group of all backgrounds and ages came together to learn about documentary filmmaking and shoot their own movies about what moves them in their city. The participants presented their final works at a beautiful open air cinema night with music and public discussions in the local urban gardens. And continued making movies together after the end of the course.",
+			},
+		],
 	},
 	{
 		id: 14,
 		images: [
-			'/Projects/Photography%20Portraits/pp1.jpeg',
-			'/Projects/Photography%20Portraits/pp2.jpeg',
-			'/Projects/Photography%20Portraits/pp3.jpeg',
-			'/Projects/Photography%20Portraits/pp4.jpeg',
-			'/Projects/Photography%20Portraits/pp5.jpeg',
-			'/Projects/Photography%20Portraits/pp6.jpeg',
-			'/Projects/Photography%20Portraits/pp7.jpeg',
-			'/Projects/Photography%20Portraits/pp8.jpeg',
-			'/Projects/Photography%20Portraits/pp9.jpeg',
-			'/Projects/Photography%20Portraits/pp10.jpeg',
-			'/Projects/Photography%20Portraits/pp11.jpeg',
-			'/Projects/Photography%20Portraits/pp12.jpeg',
-			'/Projects/Photography%20Portraits/pp13.jpeg',
-			'/Projects/Photography%20Portraits/pp14.jpeg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817883/pp1_bdj6zt.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817884/pp10_kvjie4.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817885/pp15_nh9zwt.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817886/pp4_pwmsnu.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817887/pp5_jo01pq.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817888/pp6_oadzo0.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817890/pp7_dgccal.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817890/pp9_ysvve8.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817942/pp11_mlauus.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817944/pp14_qfsfeo.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817945/pp3_wvdbsm.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817947/pp2_yvdoqx.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817954/pp13_xwv0gl.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817955/pp8_inzxla.jpg",
 		],
-		videolink: '',
-		title: 'Photography Portraits',
-		category: ['Photography'],
-		place: 'Multi-spatial',
-		year: 'Multi-temporalities',
-		collaboration: '',
+		videolink: "",
+		title: "Photography Portraits",
+		category: ["Photography"],
+		place: "Multi-spatial",
+		year: "Multi-temporalities",
+		collaboration: "",
 		description: [
 			{
-				text: 'I love to capture the essence of people and moments with analogue and digital photography. Therefore I aim to create a momentary space where the person in front of my camera feels comfortable and safe. If you are interested in personal portraits (f.e. of your pregnancy), please get into contact and we can discuss your ideas together.'
-			}
-		]
+				text: "I love to capture the essence of people and moments with analogue and digital photography. Therefore I aim to create a momentary space where the person in front of my camera feels comfortable and safe. If you are interested in personal portraits (f.e. of your pregnancy), please get into contact and we can discuss your ideas together.",
+			},
+		],
 	},
 	{
 		id: 15,
 		images: [
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho1.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho2.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho3.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho4.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho5.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho6.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho7.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho8.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho9.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho10.jpg',
-			'/Projects/How%20about%20having%20a%20fascination%20of%20mind/ho11.jpg'
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817857/ho1_p1haxi.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817620/ho10_txc2dh.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817622/ho11_zvbohp.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817624/ho4_kvndpk.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817625/ho5_aidpxh.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817626/ho6_ngstiq.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817627/ho7_f9hxeo.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817628/ho8_zqi0v9.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817629/ho9_tbs8bm.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817858/ho2_jiedl9.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817932/ho3_bmyxxl.jpg",
 		],
-		videolink: 'https://player.vimeo.com/video/709499286',
-		title: 'How about having a fascination of mind',
-		category: 'Film',
-		place: 'South Korea / Germany',
-		year: '2018',
-		collaboration: 'Katti Jisuk Seo',
+		videolink: "https://player.vimeo.com/video/709499286",
+		title: "How about having a fascination of mind",
+		category: "Film",
+		place: "South Korea / Germany",
+		year: "2018",
+		collaboration: "Katti Jisuk Seo",
 		description: [
 			{
-				text: 'In South-Korea you can buy poop bread, DVD stores offer shelters for sex and a lot of people long to have a small face.'
+				text: "In South-Korea you can buy poop bread, DVD stores offer shelters for sex and a lot of people long to have a small face.",
 			},
 			{
-				text: 'German-Korean filmmaker Katti investigates those idiosyncracies of her mom’s home country. Together with her German filmpartner Finnja, Katti flies to Seoul to ask, why do Koreans appreciate poop? Where is the small face obsession coming from? What do the sex shelters show us about society? They find a poop philosopher, face shrinking massages and home making machines. Deep inside Korea, Katti longs to build a second home there while Finnja questions her own home idea.'
+				text: "German-Korean filmmaker Katti investigates those idiosyncracies of her mom’s home country. Together with her German filmpartner Finnja, Katti flies to Seoul to ask, why do Koreans appreciate poop? Where is the small face obsession coming from? What do the sex shelters show us about society? They find a poop philosopher, face shrinking massages and home making machines. Deep inside Korea, Katti longs to build a second home there while Finnja questions her own home idea.",
 			},
 			{
-				text: 'Directed by: Katti Jisuk Seo & Finnja Willner'
+				text: "Directed by: Katti Jisuk Seo & Finnja Willner",
 			},
 			{
-				text: 'Written by: Katti Jisuk Seo'
+				text: "Written by: Katti Jisuk Seo",
 			},
 			{
-				text: 'Director of Photography: Finnja Willner'
+				text: "Director of Photography: Finnja Willner",
 			},
 			{
-				text: 'Produced by: Katti Jisuk Seo & Finnja Willner'
+				text: "Produced by: Katti Jisuk Seo & Finnja Willner",
 			},
 			{
-				text: 'Edited by: Katti Jisuk Seo'
+				text: "Edited by: Katti Jisuk Seo",
 			},
 			{
-				text: 'Animations by: Katti Jisuk Seo & Finnja Willner'
+				text: "Animations by: Katti Jisuk Seo & Finnja Willner",
 			},
 			{
-				text: 'Digital Animations by: Alejandra Tomei'
+				text: "Digital Animations by: Alejandra Tomei",
 			},
 			{
-				text: 'Music: Peter Ehwald & Ensemble Su'
+				text: "Music: Peter Ehwald & Ensemble Su",
 			},
 			{
-				text: 'Sound Design: Andreas Fertig'
+				text: "Sound Design: Andreas Fertig",
 			},
 			{
-				text: 'Color Grading: Sergi Sánchez Rodriguez'
+				text: "Color Grading: Sergi Sánchez Rodriguez",
 			},
 			{
-				text: 'Awards: Winner of the Jury Award International Etnovideográfica Festival Castilla y León 2019'
+				text: "Awards: Winner of the Jury Award International Etnovideográfica Festival Castilla y León 2019",
 			},
 			{
-				text: 'Festivals: Korean Film Festival, International Etnovideográfica Festival, La Voz de la Mujer, Boddinale Berlin'
-			}
-		]
+				text: "Festivals: Korean Film Festival, International Etnovideográfica Festival, La Voz de la Mujer, Boddinale Berlin",
+			},
+		],
 	},
 	{
 		id: 16,
-		images: ['/Projects/draw%20love%20build%20Sauerbruch%20Hutton/dlb1.jpg'],
-		videolink: [
-			'https://player.vimeo.com/video/852604931',
-			'https://player.vimeo.com/video/852598627',
-			'https://player.vimeo.com/video/851198427',
-			'https://player.vimeo.com/video/851220986',
-			'https://player.vimeo.com/video/851217623'
+		images: [
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817619/dlb1_l5i5xu.png",
 		],
-		title: 'draw love build - Sauerbruch Hutton exhibition films',
-		category: ['Film'],
-		place: 'Museum M9, Venice Mestre, Italy',
-		year: '2021',
-		collaboration: 'OFFscreen, Sauerbruch Hutton',
+		videolink: [
+			"https://player.vimeo.com/video/852604931",
+			"https://player.vimeo.com/video/852598627",
+			"https://player.vimeo.com/video/851198427",
+			"https://player.vimeo.com/video/851220986",
+			"https://player.vimeo.com/video/851217623",
+		],
+		title: "draw love build - Sauerbruch Hutton exhibition films",
+		category: ["Film"],
+		place: "Museum M9, Venice Mestre, Italy",
+		year: "2021",
+		collaboration: "OFFscreen, Sauerbruch Hutton",
 		description: [
 			{
-				text: "draw love build showed a selection of the internationally renowned architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 Museum in Venice in 2021 and in Akademie der Künste Berlin in 2024/2025. Through a broad architectural panorama, the exhibition documented the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users."
+				text: "draw love build showed a selection of the internationally renowned architects Sauerbruch Hutton's work from the last thirty years in the rooms of M9 Museum in Venice in 2021 and in Akademie der Künste Berlin in 2024/2025. Through a broad architectural panorama, the exhibition documented the main themes that interweave through the office’s different projects: dealing with the post-industrial city in its more marginal territories, concern for integrated concepts for improved sustainability of the built environment, and the joy of sensual and surprising spaces that enrich the everyday lives of their users.",
 			},
 			{
-				text: 'Together with OFFscreen Media, Finnja documented 18 buildings designed by the studio in short films that were part of the exhibition.'
-			}
-		]
+				text: "Together with OFFscreen Media, Finnja documented 18 buildings designed by the studio in short films that were part of the exhibition.",
+			},
+		],
 	},
 	{
 		id: 17,
 		images: [
-			'/Projects/Crisol%20Artist%20Residency/cri1.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri2.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri3.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri4.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri5.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri6.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri7.jpg',
-	
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817919/cri1_fgzwhq.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817923/cri2_jwqk5l.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817925/cri3_orjcss.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817926/cri4_l6tg0z.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817927/cri6_iqcbzm.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817928/cri7_xqp2aq.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817930/cri5_nm4psk.jpg",
+		
 		],
 		videolink: [],
-		title: 'Crisol Artist Residency',
-		category: ['Artist Residency', 'Photography'],
-		place: 'Atlixco, Mexico',
-		year: '2024',
-		collaboration: 'Flor, Allan Laurent, Anne Elzemann',
+		title: "Crisol Artist Residency",
+		category: ["Artist Residency", "Photography"],
+		place: "Atlixco, Mexico",
+		year: "2024",
+		collaboration: "Flor, Allan Laurent, Anne Elzemann",
 		description: [
 			{
-				text: 'Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor … and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.'
+				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor … and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
 			},
 			{
-				text: 'In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue photography.'
-			}
-		]
-	}
+				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue photography.",
+			},
+		],
+	},
 ];
 
 export default projectData;
