@@ -79,7 +79,6 @@ const projectData = [
 	{
 		id: 3,
 		images: [
-			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac1.jpg',
 			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac2.jpg',
 			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac3.jpg',
 			'/Projects/Avoir%20le%20Cors%20sour%20la%20main/ac4.jpg',
@@ -223,9 +222,6 @@ const projectData = [
 			'/Projects/filmArche%20International%20Summer%20School/fa1.jpeg',
 			'/Projects/filmArche%20International%20Summer%20School/fa2.jpeg',
 			'/Projects/filmArche%20International%20Summer%20School/fa5.jpeg',
-			'/Projects/filmArche%20International%20Summer%20School/fa6.jpeg',
-			'/Projects/filmArche%20International%20Summer%20School/fa9.jpeg',
-			'/Projects/filmArche%20International%20Summer%20School/fa11.jpeg'
 		],
 		videolink: '',
 		title: 'filmArche Utopia Summer School',
@@ -247,7 +243,6 @@ const projectData = [
 			'/Projects/Isla%20de%20Mujeres/im3.jpeg',
 			'/Projects/Isla%20de%20Mujeres/im4.jpeg',
 			'/Projects/Isla%20de%20Mujeres/im5.jpeg',
-			'/Projects/Isla%20de%20Mujeres/im6.jpeg',
 			'/Projects/Isla%20de%20Mujeres/im7.jpeg'
 		],
 		videolink: '',
@@ -271,7 +266,6 @@ const projectData = [
 			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh4.jpeg',
 			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh5.jpeg',
 			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh6.jpeg',
-			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh7.jpeg',
 			'/Projects/Lieber%20hier%20eng%20wohnen%20Feminist%20spaces%20in%20Berlin/lh8.jpeg'
 		],
 		videolink: '',
@@ -338,8 +332,6 @@ const projectData = [
 			'/Projects/Los%20Colores%20de%20la%20Isla/ci8.jpeg',
 			'/Projects/Los%20Colores%20de%20la%20Isla/ci9.jpeg',
 			'/Projects/Los%20Colores%20de%20la%20Isla/ci10.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci11.jpeg',
-			'/Projects/Los%20Colores%20de%20la%20Isla/ci12.jpeg'
 		],
 		videolink: 'https://player.vimeo.com/video/1014723455',
 		title: 'Los Colores de la Isla',
@@ -524,12 +516,7 @@ const projectData = [
 			'/Projects/Crisol%20Artist%20Residency/cri5.jpg',
 			'/Projects/Crisol%20Artist%20Residency/cri6.jpg',
 			'/Projects/Crisol%20Artist%20Residency/cri7.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri8.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri9.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri10.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri11.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri12.jpg',
-			'/Projects/Crisol%20Artist%20Residency/cri13.jpg'
+	
 		],
 		videolink: [],
 		title: 'Crisol Artist Residency',

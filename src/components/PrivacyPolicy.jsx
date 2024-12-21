@@ -1,10 +1,9 @@
-import React from "react";
 
 const PrivacyPolicy = () => {
   return (
     <div className="container example">
-      <h2>1. An overview of data protection</h2>
-      <h3>General</h3>
+      <h4>1. An overview of data protection</h4>
+      <p>General</p>
       <p>
         The following gives a simple overview of what happens to your personal
         information when you visit our website. Personal information is any data
@@ -13,15 +12,15 @@ const PrivacyPolicy = () => {
         below.
       </p>
 
-      <h3>Data collection on our website</h3>
-      <h4>Who is responsible for the data collection on this website?</h4>
+      <p>Data collection on our website</p>
+      <p>Who is responsible for the data collection on this website?</p>
       <p>
         The data collected on this website are processed by the website
         operator. The operator's contact details can be found in the website's
         required legal notice.
       </p>
 
-      <h4>How do we collect your data?</h4>
+      <p>How do we collect your data?</p>
       <p>
         Some data are collected when you provide it to us. This could, for
         example, be data you enter on a contact form.
@@ -33,13 +32,13 @@ const PrivacyPolicy = () => {
         data are collected automatically as soon as you enter our website.
       </p>
 
-      <h4>What do we use your data for?</h4>
+      <p>What do we use your data for?</p>
       <p>
         Part of the data is collected to ensure the proper functioning of the
         website. Other data can be used to analyze how visitors use the site.
       </p>
 
-      <h4>What rights do you have regarding your data?</h4>
+      <p>What rights do you have regarding your data?</p>
       <p>
         You always have the right to request information about your stored data,
         its origin, its recipients, and the purpose of its collection at no
@@ -50,7 +49,7 @@ const PrivacyPolicy = () => {
         complaint with the competent regulatory authorities.
       </p>
 
-      <h3>Analytics and third-party tools</h3>
+      <p>Analytics and third-party tools</p>
       <p>
         When visiting our website, statistical analyses may be made of your
         surfing behavior. This happens primarily using cookies and analytics.
@@ -64,8 +63,8 @@ const PrivacyPolicy = () => {
         exercise your options in this regard.
       </p>
 
-      <h2>2. General information and mandatory information</h2>
-      <h3>Data protection</h3>
+      <h4>2. General information and mandatory information</h4>
+      <p>Data protection</p>
       <p>
         The operators of this website take the protection of your personal data
         very seriously. We treat your personal data as confidential and in
@@ -85,7 +84,7 @@ const PrivacyPolicy = () => {
         of your data from third-party access is not possible.
       </p>
 
-      <h4>Notice concerning the party responsible for this website</h4>
+      <p>Notice concerning the party responsible for this website</p>
       <p>The party responsible for processing data on this website is:</p>
       <p>
         Finnja Willner
@@ -108,7 +107,7 @@ const PrivacyPolicy = () => {
         personal data (names, email addresses, etc.).
       </p>
 
-      <h4>Revocation of your consent to the processing of your data</h4>
+      <p>Revocation of your consent to the processing of your data</p>
       <p>
         Many data processing operations are only possible with your express
         consent. You may revoke your consent at any time with future effect. An
@@ -116,7 +115,7 @@ const PrivacyPolicy = () => {
         before we receive your request may still be legally processed.
       </p>
 
-      <h4>Right to data portability</h4>
+      <p>Right to data portability</p>
       <p>
         You have the right to have data which we process based on your consent
         or in fulfillment of a contract automatically delivered to yourself or
@@ -125,7 +124,7 @@ const PrivacyPolicy = () => {
         be done to the extent technically feasible.
       </p>
 
-      <h4>SSL or TLS encryption</h4>
+      <p>SSL or TLS encryption</p>
       <p>
         This site uses SSL or TLS encryption for security reasons and for the
         protection of the transmission of confidential content, such as the
@@ -139,7 +138,7 @@ const PrivacyPolicy = () => {
         cannot be read by third parties.
       </p>
 
-      <h4>Information, blocking, deletion</h4>
+      <p>Information, blocking, deletion</p>
       <p>
         As permitted by law, you have the right to be provided at any time with
         information free of charge about any of your personal data that is
@@ -150,8 +149,8 @@ const PrivacyPolicy = () => {
         personal data.
       </p>
 
-      <h2>3. Data collection on our website</h2>
-      <h3>Cookies</h3>
+      <h4>3. Data collection on our website</h4>
+      <p>Cookies</p>
       <p>
         Some of our web pages use cookies. Cookies do not harm your computer and
         do not contain any viruses. Cookies help make our website more
@@ -182,8 +181,8 @@ const PrivacyPolicy = () => {
         stored, they will be treated separately in this privacy policy.
       </p>
 
-      <h2>4. Plugins and tools</h2>
-      <h3>YouTube</h3>
+      <h4>4. Plugins and tools</h4>
+      <p>YouTube</p>
       <p>
         Our website uses plugins from YouTube, which is operated by Google. The
         operator of the pages is YouTube LLC, 901 Cherry Ave., San Bruno, CA
@@ -209,7 +208,7 @@ const PrivacyPolicy = () => {
         https://www.google.de/intl/de/policies/privacy.
       </p>
 
-      <h3>Vimeo</h3>
+      <p>Vimeo</p>
       <p>
         Our website uses features provided by the Vimeo video portal. This
         service is provided by Vimeo Inc., 555 West 18th Street, New York, New
@@ -234,7 +233,7 @@ const PrivacyPolicy = () => {
         Vimeo Privacy Policy at https://vimeo.com/privacy.
       </p>
 
-      <h3>Google Web Fonts</h3>
+      <p>Google Web Fonts</p>
       <p>
         For uniform representation of fonts, this page uses web fonts provided
         by Google. When you open a page, your browser loads the required web
