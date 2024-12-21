@@ -1,0 +1,27 @@
+.horizontal-scroll {
+  display: flex;
+  overflow-x: hidden; /* Asegura que no se muestre la barra */
+  gap: 1rem;
+  scrollbar-width: none; /* Firefox */
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Edge */
+}
+
+.thumbnail-container {
+  flex-shrink: 0;
+  width: 180px; /* Aumenta el tamaño del contenedor */
+  height: 180px; /* Hazlo más grande */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.thumbnail-container img {
+  max-width: 90%; /* Ajusta el tamaño de la imagen dentro del contenedor */
+  max-height: 90%;
+  object-fit: cover;
+  border-radius: 5px;
+}

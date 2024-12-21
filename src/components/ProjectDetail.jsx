@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import projectData from "../data/projectData";
+import "../pages/Projectdetail.css";
+
+
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -75,123 +78,184 @@ const ProjectDetail = () => {
     .concat(project.images.map((image) => ({ type: "image", src: image })));
 
   return (
-    <div className="container example">
-      <div className="row mt-4">
-        <div className="col-12 mb-4">
-          {selectedMedia.includes("vimeo.com") ? (
-            <iframe
-              src={selectedMedia}
-              title="Project Video"
-              style={{
-                width: "100%",
-                height: "500px",
-                border: "none",
-              }}
-              allowFullScreen
-            ></iframe>
-          ) : (
-            <img
-              src={selectedMedia}
-              alt="Selected"
-              className="img-fluid rounded"
-              style={{ width: "100%", maxHeight: "500px", objectFit: "contain" }}
-              onError={(e) => {
-                e.target.onerror = null; // Prevent infinite loop
-                e.target.src = "/path/to/default-thumbnail.jpg"; // Fallback image path
-              }}
-            />
-          )}
-        </div>
+		<div className='container example'>
+			<div className='row mt-4'>
+				<div className='col-12 mb-4'>
+					{selectedMedia.includes('vimeo.com') ? (
+						<iframe
+							src={selectedMedia}
+							title='Project Video'
+							style={{
+								width: '100%',
+								height: '500px',
+								border: 'none'
+							}}
+							allowFullScreen
+						></iframe>
+					) : (
+						<img
+							src={selectedMedia}
+							alt='Selected'
+							className='img-fluid rounded'
+							style={{
+								width: '100%',
+								maxHeight: '500px',
+								objectFit: 'contain'
+							}}
+							onError={(e) => {
+								e.target.onerror = null; // Prevent infinite loop
+								e.target.src = '/path/to/default-thumbnail.jpg'; // Fallback image path
+							}}
+						/>
+					)}
+				</div>
 
-        <div className="col-12">
-          <div className="row">
-            {galleryItems.map((item, index) => (
-              <div className="col-6 col-md-4 col-lg-3 mb-4" key={index}>
-                {item.type === "video" ? (
-                  <div
-                    className="position-relative"
-                    onClick={() => handleMediaClick(item.src)}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <img
-                      src={item.thumbnail}
-                      alt="Video Thumbnail"
-                      className="img-fluid rounded"
-                      style={{
-                        border: selectedMedia === item.src ? "2px solid #6c757d" : "none",
-                      }}
-                      onError={(e) => {
-                        e.target.onerror = null;
-                        e.target.src = "/path/to/default-thumbnail.jpg"; // Fallback for broken video thumbnail
-                      }}
-                    />
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "50%",
-                        left: "50%",
-                        transform: "translate(-50%, -50%)",
-                        fontSize: "2rem",
-                        color: "white",
-                        background: "rgba(0, 0, 0, 0.5)",
-                        padding: "0.5rem",
-                        borderRadius: "50%",
-                      }}
-                    >
-                      ▶
-                    </div>
-                  </div>
-                ) : (
-                  <img
-                    src={item.src}
-                    alt={`Thumbnail ${index}`}
-                    className="img-fluid rounded"
-                    onClick={() => handleMediaClick(item.src)}
-                    style={{
-                      cursor: "pointer",
-                      border: selectedMedia === item.src ? "2px solid #6c757d" : "none",
-                    }}
-                    onError={(e) => {
-                      e.target.onerror = null;
-                      e.target.src = "/path/to/default-thumbnail.jpg"; // Fallback for broken image
-                    }}
-                  />
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
+				<div className='col-12 position-relative'>
+					{/* Botón para desplazarse a la izquierda */}
+					<button
+						className='carousel-control-left'
+						onClick={() => {
+							const scrollContainer = document.querySelector('.horizontal-scroll');
+							scrollContainer.scrollBy({ left: -200, behavior: 'smooth' });
+						}}
+						style={{
+							position: 'absolute',
+							left: '0',
+							top: '50%',
+							transform: 'translateY(-50%)',
+							background: 'none',
+							border: 'none',
+							fontSize: '2rem',
+							cursor: 'pointer',
+							zIndex: 10
+						}}
+					>
+						<i className='bi bi-caret-left-fill'></i>
+					</button>
 
-      <div className="mt-4 border-top pt-4 example">
-        <h1 className="mt-5 mb-5">{project.title}</h1>
-        <div className="row">
-          <div className="col-12 col-md-6">
-            <p style={{ textAlign: "justify" }}>{project.description}</p>
-          </div>
-          <div className="col-12 col-md-6">
-            <p>
-              <strong>Category:</strong> {project.category}
-            </p>
-            <p>
-              <strong>Place:</strong> {project.place}
-            </p>
-            <p>
-              <strong>Year:</strong> {project.year}
-            </p>
-            <p>
-              <strong>Collaboration:</strong> {project.collaboration}
-            </p>
-          </div>
-        </div>
-      </div>
+					{/* Contenedor de miniaturas */}
+					<div className='horizontal-scroll' style={{ display: 'flex', overflowX: 'auto', gap: '1rem' }}>
+						{galleryItems.map((item, index) => (
+							<div
+								className='thumbnail-container'
+								key={index}
+								onClick={() => handleMediaClick(item.src)}
+								style={{
+									width: '150px',
+									height: '150px',
+									flexShrink: 0,
+									display: 'flex',
+									justifyContent: 'center',
+									alignItems: 'center',
+									cursor: 'pointer',
+									borderRadius: '5px',
+									background: '#f8f9fa' // Fondo para que resalte la miniatura
+								}}
+							>
+								{item.type === 'video' ? (
+									<div className='position-relative'>
+										<img
+											src={item.thumbnail}
+											alt='Video Thumbnail'
+											style={{
+												width: '100%',
+												height: '100%',
+												objectFit: 'cover'
+											}}
+											onError={(e) => {
+												e.target.onerror = null;
+												e.target.src = '/path/to/default-thumbnail.jpg'; // Fallback para miniaturas rotas
+											}}
+										/>
+									</div>
+								) : (
+									<img
+										src={item.src}
+										alt={`Thumbnail ${index}`}
+										style={{
+											width: '100%',
+											height: '100%',
+											objectFit: 'cover'
+										}}
+										onError={(e) => {
+											e.target.onerror = null;
+											e.target.src = '/path/to/default-thumbnail.jpg'; // Fallback para imágenes rotas
+										}}
+									/>
+								)}
+							</div>
+						))}
+					</div>
 
-      <div className="mt-4 border-top pt-4 example">
-        <Link to="/projects" className="btn btn-outline-secondary mt-3">
-          Back to Projects
-        </Link>
-      </div>
-    </div>
+					{/* Botón para desplazarse a la derecha */}
+					<button
+						className='carousel-control-right'
+						onClick={() => {
+							const scrollContainer = document.querySelector('.horizontal-scroll');
+							scrollContainer.scrollBy({ left: 200, behavior: 'smooth' });
+						}}
+						style={{
+							position: 'absolute',
+							right: '0',
+							top: '50%',
+							transform: 'translateY(-50%)',
+							background: 'none',
+							border: 'none',
+							fontSize: '2rem',
+							cursor: 'pointer',
+							zIndex: 10
+						}}
+					>
+						<i className='bi bi-caret-right-fill'></i>
+					</button>
+				</div>
+			</div>
+
+			<div className='mt-4 border-top pt-4 example'>
+				<h1 className='mt-5 mb-5'>{project.title}</h1>
+				<div className='row'>
+					<div className='col-12 col-md-6'>
+						{project.description.map((paragraph, index) => (
+							<p key={index} style={{ textAlign: 'left', marginBottom: '1rem' }}>
+								{paragraph.text}
+								{paragraph.link && (
+									<a
+										href={paragraph.link.url}
+										target='_blank'
+										rel='noopener noreferrer'
+										style={{ color: 'blue', textDecoration: 'underline' }}
+									>
+										{paragraph.link.text}
+									</a>
+								)}
+								{paragraph.afterText && paragraph.afterText}
+							</p>
+						))}
+					</div>
+					<div className='col-12 col-md-6'>
+						<p>
+							<strong>Category:</strong>{' '}
+							{Array.isArray(project.category) ? project.category.join(', ') : project.category}
+						</p>
+						<p>
+							<strong>Place:</strong> {project.place}
+						</p>
+						<p>
+							<strong>Year:</strong> {project.year}
+						</p>
+						<p>
+							<strong>Collaboration:</strong> {project.collaboration}
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div className='mt-4 border-top pt-4 example'>
+				<Link to='/projects' className='btn btn-outline-secondary mt-3'>
+					Back to Projects
+				</Link>
+			</div>
+		</div>
   );
 };
 

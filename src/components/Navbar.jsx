@@ -1,8 +1,8 @@
-import React from "react";
+import PropTypes from 'prop-types';
 import { Navbar as BootstrapNavbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-const CustomNavbar = ({ artist }) => {
+const CustomNavbar = ({artist}) => {
   return (
     <BootstrapNavbar
       bg="light"
@@ -12,7 +12,7 @@ const CustomNavbar = ({ artist }) => {
     >
       <Container>
         <BootstrapNavbar.Brand href="/">
-          <h1 className="mb-0 example">Finnja Willner</h1>
+          <h2 className="mb-0 example">Finnja Willner</h2>
           <p className="mb-0 example" style={{ color: "gray" }}>
             {artist}
           </p>
@@ -46,6 +46,9 @@ const CustomNavbar = ({ artist }) => {
       </Container>
     </BootstrapNavbar>
   );
+};
+CustomNavbar.propTypes = {
+  artist: PropTypes.string.isRequired,
 };
 
 export default CustomNavbar;
