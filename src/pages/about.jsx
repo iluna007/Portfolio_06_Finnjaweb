@@ -20,7 +20,7 @@ const About = () => {
 
 							<div className='mt-5'></div>
 							<img
-								src='./About/fw1.jpeg'
+								src='https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734822526/fw1_lpowzw.jpg'
 								alt='About Finnja'
 								className='img-fluid rounded'
 							/>
