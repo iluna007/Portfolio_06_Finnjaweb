@@ -81,14 +81,14 @@ const ProjectDetail = () => {
 		<div className='container example'>
 			<div className='row mt-4'>
 				<div className='col-12 mb-4'>
-					{selectedMedia.includes('vimeo.com') ? (
+					{selectedMedia.includes("vimeo.com") ? (
 						<iframe
 							src={selectedMedia}
 							title='Project Video'
 							style={{
-								width: '100%',
-								height: '500px',
-								border: 'none'
+								width: "100%",
+								height: "500px",
+								border: "none",
 							}}
 							allowFullScreen
 						></iframe>
@@ -98,13 +98,13 @@ const ProjectDetail = () => {
 							alt='Selected'
 							className='img-fluid rounded'
 							style={{
-								width: '100%',
-								maxHeight: '500px',
-								objectFit: 'contain'
+								width: "100%",
+								maxHeight: "500px",
+								objectFit: "contain",
 							}}
 							onError={(e) => {
 								e.target.onerror = null; // Prevent infinite loop
-								e.target.src = '/path/to/default-thumbnail.jpg'; // Fallback image path
+								e.target.src = "/path/to/default-thumbnail.jpg"; // Fallback image path
 							}}
 						/>
 					)}
@@ -115,56 +115,70 @@ const ProjectDetail = () => {
 					<button
 						className='carousel-control-left'
 						onClick={() => {
-							const scrollContainer = document.querySelector('.horizontal-scroll');
-							scrollContainer.scrollBy({ left: -200, behavior: 'smooth' });
+							const scrollContainer =
+								document.querySelector(".horizontal-scroll");
+							scrollContainer.scrollBy({ left: -200, behavior: "smooth" });
 						}}
 						style={{
-							position: 'absolute',
-							left: '0',
-							top: '50%',
-							transform: 'translateY(-50%)',
-							background: 'none',
-							border: 'none',
-							fontSize: '2rem',
-							cursor: 'pointer',
-							zIndex: 10
+							position: "absolute",
+							left: "-50px", // Ajusta la posición al lado del carrusel
+							top: "50%",
+							transform: "translateY(-50%)",
+							background: "none",
+							border: "none",
+							cursor: "pointer",
+							zIndex: 10,
 						}}
 					>
-						<i className='bi bi-caret-left-fill'></i>
+						<svg
+							xmlns='http://www.w3.org/2000/svg'
+							width='24'
+							height='24'
+							fill='grey'
+							viewBox='0 0 16 16'
+						>
+							<path
+								fillRule='evenodd'
+								d='M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5M10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5'
+							></path>
+						</svg>
 					</button>
 
 					{/* Contenedor de miniaturas */}
-					<div className='horizontal-scroll' style={{ display: 'flex', overflowX: 'auto', gap: '1rem' }}>
+					<div
+						className='horizontal-scroll'
+						style={{ display: "flex", overflowX: "auto", gap: "1rem" }}
+					>
 						{galleryItems.map((item, index) => (
 							<div
 								className='thumbnail-container'
 								key={index}
 								onClick={() => handleMediaClick(item.src)}
 								style={{
-									width: '150px',
-									height: '150px',
+									width: "150px",
+									height: "150px",
 									flexShrink: 0,
-									display: 'flex',
-									justifyContent: 'center',
-									alignItems: 'center',
-									cursor: 'pointer',
-									borderRadius: '5px',
-									background: '#f8f9fa' // Fondo para que resalte la miniatura
+									display: "flex",
+									justifyContent: "center",
+									alignItems: "center",
+									cursor: "pointer",
+									borderRadius: "5px",
+									background: "#f8f9fa", // Fondo para que resalte la miniatura
 								}}
 							>
-								{item.type === 'video' ? (
+								{item.type === "video" ? (
 									<div className='position-relative'>
 										<img
 											src={item.thumbnail}
 											alt='Video Thumbnail'
 											style={{
-												width: '100%',
-												height: '100%',
-												objectFit: 'cover'
+												width: "100%",
+												height: "100%",
+												objectFit: "cover",
 											}}
 											onError={(e) => {
 												e.target.onerror = null;
-												e.target.src = '/path/to/default-thumbnail.jpg'; // Fallback para miniaturas rotas
+												e.target.src = "/path/to/default-thumbnail.jpg"; // Fallback para miniaturas rotas
 											}}
 										/>
 									</div>
@@ -173,13 +187,13 @@ const ProjectDetail = () => {
 										src={item.src}
 										alt={`Thumbnail ${index}`}
 										style={{
-											width: '100%',
-											height: '100%',
-											objectFit: 'cover'
+											width: "100%",
+											height: "100%",
+											objectFit: "cover",
 										}}
 										onError={(e) => {
 											e.target.onerror = null;
-											e.target.src = '/path/to/default-thumbnail.jpg'; // Fallback para imágenes rotas
+											e.target.src = "/path/to/default-thumbnail.jpg"; // Fallback para imágenes rotas
 										}}
 									/>
 								)}
@@ -191,22 +205,33 @@ const ProjectDetail = () => {
 					<button
 						className='carousel-control-right'
 						onClick={() => {
-							const scrollContainer = document.querySelector('.horizontal-scroll');
-							scrollContainer.scrollBy({ left: 200, behavior: 'smooth' });
+							const scrollContainer =
+								document.querySelector(".horizontal-scroll");
+							scrollContainer.scrollBy({ left: 200, behavior: "smooth" });
 						}}
 						style={{
-							position: 'absolute',
-							right: '0',
-							top: '50%',
-							transform: 'translateY(-50%)',
-							background: 'none',
-							border: 'none',
-							fontSize: '2rem',
-							cursor: 'pointer',
-							zIndex: 10
+							position: "absolute",
+							right: "-50px", // Ajusta la posición al lado del carrusel
+							top: "50%",
+							transform: "translateY(-50%)",
+							background: "none",
+							border: "none",
+							cursor: "pointer",
+							zIndex: 10,
 						}}
 					>
-						<i className='bi bi-caret-right-fill'></i>
+						<svg
+							xmlns='http://www.w3.org/2000/svg'
+							width='24'
+							height='24'
+							fill='grey'
+							viewBox='0 0 16 16'
+						>
+							<path
+								fillRule='evenodd'
+								d='M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5'
+							/>
+						</svg>
 					</button>
 				</div>
 			</div>
@@ -216,14 +241,17 @@ const ProjectDetail = () => {
 				<div className='row'>
 					<div className='col-12 col-md-6'>
 						{project.description.map((paragraph, index) => (
-							<p key={index} style={{ textAlign: 'left', marginBottom: '1rem' }}>
+							<p
+								key={index}
+								style={{ textAlign: "left", marginBottom: "1rem" }}
+							>
 								{paragraph.text}
 								{paragraph.link && (
 									<a
 										href={paragraph.link.url}
 										target='_blank'
 										rel='noopener noreferrer'
-										style={{ color: 'blue', textDecoration: 'underline' }}
+										style={{ color: "blue", textDecoration: "underline" }}
 									>
 										{paragraph.link.text}
 									</a>
@@ -234,8 +262,10 @@ const ProjectDetail = () => {
 					</div>
 					<div className='col-12 col-md-6'>
 						<p>
-							<strong>Category:</strong>{' '}
-							{Array.isArray(project.category) ? project.category.join(', ') : project.category}
+							<strong>Category:</strong>{" "}
+							{Array.isArray(project.category)
+								? project.category.join(", ")
+								: project.category}
 						</p>
 						<p>
 							<strong>Place:</strong> {project.place}
@@ -256,7 +286,7 @@ const ProjectDetail = () => {
 				</Link>
 			</div>
 		</div>
-  );
+	);
 };
 
 export default ProjectDetail;
