@@ -63,13 +63,13 @@ const projectData = [
 		category: "Photography",
 		place: "Trans-spatial",
 		year: "Multi-temporalities",
-		collaboration: "",
+		collaboration: "NA",
 		description: [
 			{
 				text: "Ser-hi no és altra cosa que un conjunt de casualitats. Creuar-nos és més atzarós encara. Mirar-nos, tocar-nos o compartir una estona, o moltes estones, és pràcticament un miracle. Dins d’aquella tassa de te que vam compartir, hi havia totes aquestes casualitats juntes i tot s’havia alineatperquè tu i jo, aquell matí, ens el beguéssim fent glopets. Mentre parlàvem sentíem el riu galopar, embarassat de peixos platejats i granotetes, recordàvem escenes del passat i en projectàvem de futures. A ulls de tothom, érem dues figures ben juntes prenent un te a la llera d’una gorga; però pels que hi veien més enllà, l’escena era molt més esplèndida. Assegudes, al nostre voltant, hi havia les nostres avantpassades, transparents i silencioses, carregades de vida, d’experiència, de secrets que havien arribat fins a nosaltres i de secrets que havien mort amb elles, i totes, sense fer soroll, s’apropaven i feien glopets d’aquella mateixa tassa, que no parava de fumejar.",
 			},
 			{
-				text: "Existir es una sucesión de casualidades. Cruzar-nos es más azaroso todavía. Mirarnos, tocarnos o compartir un rato, o muchos ratos, es prácticamente un milagro. Dentro de aquella taza de té que compartimos, había todas estas casualidades juntas y todo se había alineado para que tú y yo, aquella mañana, nos lo bebiéramos a sorbitos. Mientras hablábamos, escuchábamos el río galopar –embarazado de peces plateados y ranitas–, recordábamos escenas del pasado y proyectábamos de futuras. A ojos de todos, éramos dos figuras bien juntas tomando un té en el lecho de un río, pero para los que veían más allá, la escena era más espléndida. Sentadas, a nuestro alrededor, había nuestras antepasadas, transparentes y silenciosas, cargadas de vida, de experiencia, de secretos que habían llegado hasta nosotras y de secretos que habían muerto con ellas, y todas, sin hacer ruido, se acercaban y hacían pequeños sorbos de aquella misma taza, que no dejaba de humear.",
+				text: "Existing is a succession of coincidences. Crossing pathways is even more arbitrary. To look at each other, touch one another or share a moment, or many moments, is practically a miracle. Inside that cup of tea we shared, all these coincidences met. And everything had aligned so that you and I, this particular morning, drank it in sips. As we talked, listening to the galloping river - pregnant with silver fish and frogs - we remembered scenes of the past and projected those of the future. To everyone's eyes, we were two figures sitting close to each other, sipping tea in a riverbed. But to those who saw beyond, the scene was more splendid. Seated around us were our ancestors, transparent and silent. Full of life. Of experience. Of secrets that had come to us and of secrets that had died with them. And they all, without a sound, approached and took small sips from that same cup, which kept on steaming.",
 			},
 			{
 				text: "Mercè Vila Rigat, Montmeló, December 2024​",
@@ -84,7 +84,6 @@ const projectData = [
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735828201/ac3_jrsmir.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735828203/ac4_qgymo6.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735828201/ac5_hg1paf.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735828204/ac6_xkhigs.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735828202/ac7_crd5d6.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735828203/ac8_kn9m1f.jpg",
 		],
@@ -96,7 +95,7 @@ const projectData = [
 		collaboration: "Rayén Mitrovic​, Patrixia Menjura",
 		description: [
 			{
-				text: "When I speak of the erotic, the, I speak of it as an assertion of the lifeforce of women; of that creative energy empowered, the knowledge and use of which we are now reclaiming in our language, our history, our dancing, our living, our work, our lives.",
+				text: "‘When I speak of the erotic, I speak of it as an assertion of the lifeforce of women; of that creative energy empowered, the knowledge and use of which we are now reclaiming in our language, our history, our dancing, our living, our work, our lives.’",
 			},
 			{
 				text: "-Audre Lourde",
@@ -105,7 +104,7 @@ const projectData = [
 				text: "The project: ‘Avoir le Corps sous la Main’ - ‘With the body in the hand’ invites Spanish-speaking students to participate in a workshop of encounter and exchange around artistic research-creation in the context of the pandemic. In this space, we propose to develop artistic practices (performative, installation, audiovisual, etc.) that question the relationship between the intimate and the public in order to subvert current notions of proximity and social distance.",
 			},
 			{
-				text: "This collective initiative seeks to investigate in our bodies intimate spaces of resistance to isolation.",
+				text: "This collective initiative seeks to investigate in our bodies intimate spaces of resistance to isolation. The research process started before the pandemic and was adapted to the current social circumstances to an online format.",
 			},
 		],
 	},
@@ -166,10 +165,9 @@ const projectData = [
 	{
 		id: 6,
 		images: [
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833649/cm1_mgf0rt.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833662/cm4_tflofy.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833651/cm2_nvpgo3.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833660/cm3_f8rocq.png",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833662/cm4_tflofy.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833664/cm5_kcq0rt.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833655/cm6_pphtcl.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833659/cm7_xc9tuj.jpg",
@@ -270,7 +268,6 @@ const projectData = [
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817633/im2_r9fczj.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817634/im3_nalk1o.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817635/im4_hxfjlt.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817637/im5_wq1rhp.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735832838/im6_qhzjqh.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817639/im7_gamoge.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817640/im8_xmo9qo.jpg",
@@ -308,7 +305,6 @@ const projectData = [
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817866/lh4_njapwh.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817867/lh5_dwwfw9.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817855/lh6_ceedh5.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735829675/lh7_hx14cl.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735829971/lh8_ugum4m.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817935/lh10_psu5lt.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817861/lh12_ojrcuz.jpg",
@@ -390,7 +386,6 @@ const projectData = [
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817874/ci8_jjpd2q.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817941/ci9_sbsovv.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817872/ci10_tlymht.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735827561/ci12_xzuo9a.jpg",
 		],
 		videolink: "https://player.vimeo.com/video/1014723455",
 		title: "Los Colores de la Isla",
@@ -464,7 +459,7 @@ const projectData = [
 		category: ["Photography"],
 		place: "Multi-spatial",
 		year: "Multi-temporalities",
-		collaboration: "",
+		collaboration: "NA",
 		description: [
 			{
 				text: "I love to capture the essence of people and moments with analogue and digital photography. Therefore I aim to create a momentary space where the person in front of my camera feels comfortable and safe. If you are interested in personal portraits (f.e. of your pregnancy), please get into contact and we can discuss your ideas together.",
