@@ -1,10 +1,9 @@
 .custom-navbar {
-  background-image: url("https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735821808/FINNJA%20WEB/Assets/sybxskyck3uncpz7qgdz.jpg");
   background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: center; /* Centra la imagen */
   min-height: 50px; /* Ajusta la altura mínima según lo necesites */
-  background-color: rgba(255, 255, 255, 0.85); /* Blanco con 50% de transparencia */
+  background-color: rgba(255, 255, 255, 1); /* Blanco con 50% de transparencia */
   background-blend-mode: overlay; /* Mezcla el color blanco con la imagen */
 }
 
