@@ -24,8 +24,6 @@ const Contact = () => {
               <br />
               Berlin, Germany.
               <br />
-              Telephone: +49 177 8598966
-              <br />
               Email: finnja.willner@web.de
             </p>
             <Accordion defaultActiveKey={null} flush>

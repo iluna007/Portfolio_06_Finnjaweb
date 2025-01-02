@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 const Home = () => {
   const videoRef = useRef(null);
@@ -25,37 +25,37 @@ const Home = () => {
   }, []);
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        minHeight: "80vh",
-        overflow: "hidden",
-        position: "relative",
-        width: "100%", // Ensure it takes the whole width
-        margin: 0,
-        padding: 0
-      }}
-    >
-      <video
-        ref={videoRef}
-        src="/Reel_provisorio.MOV"
-        autoPlay
-        loop
-        muted
-        playsInline
-        type="video/quicktime"
-        style={{
-          width: "100%",
-          height: "auto",
-          borderRadius: "12px" // Reintroduce rounded corners
-        }}
-      ></video>
+		<div
+			style={{
+				display: "flex",
+				justifyContent: "center",
+				alignItems: "center",
+				minHeight: "80vh",
+				overflow: "hidden",
+				position: "relative",
+				width: "90%", // Width of the video container
+				margin: "0 auto", // Center the container horizontally
+				padding: 10,
+			}}
+		>
+			<video
+				ref={videoRef}
+				src='https://res.cloudinary.com/dw1ht0zfd/video/upload/v1735817364/Reel_provisorio_mfezmn.mov'
+				autoPlay
+				loop
+				muted
+				playsInline
+				type='video/quicktime'
+				style={{
+					width: "100%",
+					height: "auto",
+					borderRadius: "12px", // Reintroduce rounded corners
+				}}
+			></video>
 
-      {/* Media Queries to handle different screen sizes */}
-      <style>
-        {`
+			{/* Media Queries to handle different screen sizes */}
+			<style>
+				{`
           @media (max-width: 768px) {
             video {
               width: 100vw;   /* Full width for smaller devices */
@@ -74,9 +74,9 @@ const Home = () => {
             }
           }
         `}
-      </style>
-    </div>
-  );
+			</style>
+		</div>
+	);
 };
 
 export default Home;

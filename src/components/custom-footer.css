@@ -1,0 +1,36 @@
+.custom-footer {
+  background-color: #ffffff; /* Fondo del footer */
+  padding: 0px; /* Espaciado interno */
+  text-align: center; /* Alineación del contenido */
+}
+
+.custom-footer-border {
+  border-top: 1px solid #ddd; /* Grosor y color del borde superior */
+  margin-top: 0px; /* Separación externa del borde */
+  padding-top: 0px; /* Separación interna desde el borde */
+}
+
+.custom-footer .social-icons a {
+  margin-right: 10px; /* Espaciado entre iconos */
+  color: #6c757d; /* Color de los iconos */
+  transition: color 0.3s ease; /* Animación para hover */
+}
+
+.custom-footer .social-icons a:hover {
+  color: #343a40; /* Color de los iconos al pasar el mouse */
+}
+
+.custom-footer p {
+  margin: 0; /* Elimina todos los márgenes del texto */
+  font-size: 0.85rem; /* Tamaño de la fuente */
+  color: #6c757d; /* Color del texto */
+  line-height: 1.2; /* Ajusta la altura de línea para evitar separación vertical */
+}
+
+.custom-footer a {
+  text-decoration: none; /* Elimina subrayado en enlaces */
+}
+
+.custom-footer a:hover {
+  text-decoration: underline; /* Añade subrayado en hover */
+}

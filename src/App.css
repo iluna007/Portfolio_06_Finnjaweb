@@ -1,3 +1,4 @@
+/* Root Styles */
 #root {
   width: 100%; /* Full width of the viewport */
   margin: 0 auto; /* Center the content */
@@ -6,6 +7,9 @@
   overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
+
+
+/* Logo */
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -19,6 +23,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Animation */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -27,23 +32,83 @@
     transform: rotate(360deg);
   }
 }
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
+/* Cards */
 .card {
   padding: 2em;
 }
 
+/* Documentation Link */
 .read-the-docs {
   color: #888;
 }
 
-/* global.css */
-.example {
-  font-family: "acumin-variable", sans-serif;
-  font-variation-settings: "wght" 194.2857, "wdth" 100, "slnt" 0;
+/* Typography using Lato font */
+.lato-thin {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body, #root {
+  font-family: "Lato", serif !important;
 }
