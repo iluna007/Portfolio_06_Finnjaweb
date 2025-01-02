@@ -166,11 +166,17 @@ const projectData = [
 	{
 		id: 6,
 		images: [
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817912/cm1_eepoob.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817913/cm2_qgdm3j.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817948/cm4_h8mlrr.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817949/cm3_shgnix.jpg",
-			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817956/cm5_hxbw9p.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833649/cm1_mgf0rt.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833651/cm2_nvpgo3.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833660/cm3_f8rocq.png",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833662/cm4_tflofy.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833664/cm5_kcq0rt.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833655/cm6_pphtcl.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833659/cm7_xc9tuj.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833653/cm8_gq5gqb.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833657/cm9_bx2byh.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833746/cm10_zanyc1.jpg",
+			"https://res.cloudinary.com/dw1ht0zfd/image/upload/v1735833744/cm11_qz0jsi.jpg",
 		],
 		videolink: "https://player.vimeo.com/video/1031574159",
 		title: "Cinema Mele, Cinema Resiliente",
@@ -272,7 +278,7 @@ const projectData = [
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817631/im10_gdrq02.jpg",
 			"https://res.cloudinary.com/dw1ht0zfd/image/upload/q_auto/v1734817632/im11_thmh1g.jpg",
 		],
-		videolink: "",
+		videolink: "https://player.vimeo.com/video/1042253815",
 		title: "Isla de Mujeres",
 		category: ["Workshop", "Research"],
 		place: "La Palma, Canary Islands, Spain",
@@ -280,7 +286,16 @@ const projectData = [
 		collaboration: "Karmala Cultura",
 		description: [
 			{
+				text: "Isla de Mujeres is a safer space to create networks and build community.",
+			},
+			{
 				text: "In the frame of the project Isla de Mujeres initiated by Karmala Cultura, Finnja developed several workshops/laboratories which seek to provide spaces and time to immerse a collective of women in an experience focused on connecting to their territory, bodies and among each other through storytelling, somatics and creation in a collaborative and situated way.",
+			},
+			{
+				text: "Manifiesto Colectivo del Taller Mapa afectivo:",
+			},
+			{
+				text: "Nuestra isla de mujeres, es mi refugio, puedo volver a un lugar feliz de la infancia y sentirme en paz me da una sensación de gracias. En nuestra isla de mujeres dejo mis problemas atrás es mi hogar un lugar para poder ser un imaginario para compartir.Nuestra isla de mujeres es un lugar mágico dónde sentir el alma, dónde sentir todas las almas que se encuentran ahí es un mundo dónde quepan muchos mundos",
 			},
 		],
 	},
@@ -564,10 +579,10 @@ const projectData = [
 		category: ["Artist Residency", "Photography"],
 		place: "Atlixco, Mexico",
 		year: "2024",
-		collaboration: "Flor, Allan Laurent, Anne Elzemann",
+		collaboration: "Flor de María Reyna Hermann, Allan Laurent, Anne Elzemann",
 		description: [
 			{
-				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor … and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
+				text: "Crisol is a project of organization, appropriation and intervention of abandoned and semi-abandoned spaces to generate laboratories for creative experimentation. The artists Flor de María Reyna Hermann​ and Allan Laurent have activated the abandoned majestic Villa of the former Cacique of Atlixco in Puebla, Mexico into a cultural center where different creative processes arise and have an impact on the space per se.",
 			},
 			{
 				text: "In February 2024 Finnja was invited as an artist in residence to experiment with somatics, natural pigment dyeing and analogue photography.",
